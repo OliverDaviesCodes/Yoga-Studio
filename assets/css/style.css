@@ -8,8 +8,21 @@
 
 /*------------- Page Selectors*/
 /*------------- Headings*/
+h1 {
+    padding-top: 250px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+
+}
+
 /*------------- Footer*/
 /*------------- Fonts, Icons & Buttons*/
+.font-style {
+    font-family: 'Patrick Hand', cursive;
+    color: #C4DFE6;
+}
+
+
 .btn {
     color: #F4874B;
 }
