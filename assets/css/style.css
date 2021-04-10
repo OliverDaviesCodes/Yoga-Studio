@@ -1,0 +1,44 @@
+/*------------- Images*/
+.bg-img-home {
+    background-image: url("../images/yogaoutside2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*------------- Page Selectors*/
+/*------------- Headings*/
+/*------------- Footer*/
+/*------------- Fonts, Icons & Buttons*/
+.btn {
+    color: #F4874B;
+}
+
+#book-here-btn {
+    background-color: #F4874B;
+    color: black;
+    size: 8px;
+    padding: 3px;
+    padding-right: 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    text-align: left;
+}
+
+#menu-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: left;
+}
+
+/*------------- Images*/
+body {
+    position: relative;
+}
+
+/*------------- Images*/
+/*------------- Images*/
+/*------------- Images*/

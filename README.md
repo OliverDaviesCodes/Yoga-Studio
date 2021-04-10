@@ -72,3 +72,19 @@ see the attached Hybrid Mock-ups for the website here --->
 *  Heading and page introduction focused on identifying user location
 *  description and form related to the contact us section hoping for users to contact the owners easily through the outputted form
 *  Footer
+ 
+# 
+
+## Features left to implement
+
+## Technologies Used
+
+## Testing
+
+## Deployment
+
+## Content
+
+## Media 
+
+## Acknowledgements
