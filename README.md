@@ -11,6 +11,7 @@ With a focus on attracting New individuals who would like to try yoga or meditat
 see the attached Hybrid Mock-ups for the website here ---> 
 
 # 
+
 ## Home Page Features
 
 * Book Here! button - allows users to jump straight to the booking page of the site if looking
@@ -50,3 +51,24 @@ see the attached Hybrid Mock-ups for the website here --->
    as well as operating hours for user convenience.
 * Motivational Input page encouraging booking and contacting the web owners for questions or booking.
 * Footer
+
+# 
+
+## Contact Page Features 
+
+*  Menu Button - designed to create a drop down menu with a selection of access pages for ux design
+*  Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
+*  Heading and page introduction focused on identifying user location
+*  description and form related to the contact us section hoping for users to contact the owners easily through the outputted form
+*  Footer
+
+
+# 
+
+## Booking Page Features
+
+*  Menu Button - designed to create a drop down menu with a selection of access pages for ux design
+*  Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
+*  Heading and page introduction focused on identifying user location
+*  description and form related to the contact us section hoping for users to contact the owners easily through the outputted form
+*  Footer
