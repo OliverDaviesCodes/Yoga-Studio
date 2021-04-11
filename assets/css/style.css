@@ -78,6 +78,14 @@
 }
 
 /*------------- Headings*/
+h5.social {
+    text-align: center;
+}
+
+p.footer-font {
+    font-size: 16px;
+}
+
 
 .heading-container {
     padding-top: 250px;
@@ -110,6 +118,16 @@ footer {
 }
 
 /*------------- Fonts, Icons & Buttons*/
+
+.page-icon {
+    padding: 0 5px 0 5px;
+}
+
+.fab {
+    color: #F4874B;
+    text-align: center;
+}
+
 .fas {
     color: #F4874B;
 }
@@ -177,6 +195,10 @@ body {
     position: relative;
 }
 
-/*------------- Images*/
+/*------------- Lists*/
+.li-inline {
+    display: inline;
+}
+
 /*------------- Images*/
 /*------------- Images*/
