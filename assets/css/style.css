@@ -27,7 +27,7 @@
     height: 19em;
     width: 19em;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     flex: none;
     max-width: 100%;
 }
@@ -42,7 +42,7 @@
     height: 19em;
     width: 19em;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     flex: none;
     max-width: 100%;
 }
@@ -55,7 +55,7 @@
     height: 19em;
     width: 19em;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     flex: none;
     max-width: 100%;
 }
@@ -65,12 +65,16 @@
     border-radius: 50%;
     display: inline-block;
     padding: 30px;
-    height: 19em;
-    width: 19em;
+    height: 20em;
+    width: 20em;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     flex: none;
     max-width: 100%;
+}
+
+.page-selector-p {
+    font-size: 125%;
 }
 
 /*------------- Headings*/
@@ -79,23 +83,42 @@
     padding-top: 250px;
     padding-bottom: 200px;
     margin: 0 auto;
+    font-size: 4em;
 
 }
 
 .heading-home {
     background-color: #003B46;
     opacity: 0.5;
+    background-size: cover;
 
 }
 
 /*------------- Footer*/
+footer {
+    background-color: #134F5C;
+    color: #C4DFE6;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-div {
+    background-color: #134F5C;
+    color: #C4DFE6;
+    font-size: 28px;
+}
+
 /*------------- Fonts, Icons & Buttons*/
+.fas {
+    color: #F4874B;
+}
 
 .fa-arrow-circle-down {
     text-align: center;
     line-height: inherit;
     margin: 0;
-    padding: 0;
+    color: #003B46;
 }
 
 .text-center {
@@ -111,6 +134,7 @@
 
 .btn {
     color: #F4874B;
+    padding: 0;
 }
 
 .page-btn {
@@ -120,6 +144,7 @@
     color: #003B46;
     background-color: #F4874B;
     text-align: center;
+    margin-top: 15px;
 }
 
 #book-here-btn {
@@ -130,16 +155,21 @@
     padding-right: 3px;
     border-radius: 20px;
     position: absolute;
-    top: 5px;
-    right: 40px;
+    top: 0.75em;
+    right: 3em;
     text-align: left;
+    font-size: 1.25em;
 }
 
 #menu-btn {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 0.5em;
+    right: 0.5em;
     text-align: left;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1.5em;
 }
 
 /*------------- Images*/
