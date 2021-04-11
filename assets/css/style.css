@@ -5,6 +5,7 @@
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    background-position: center center;
 }
 
 .logo-div {
@@ -21,7 +22,7 @@
 /*------------- Headings*/
 
 .heading-container {
-    padding-top: 300px;
+    padding-top: 250px;
     padding-bottom: 200px;
     margin: 0 auto;
 
@@ -35,6 +36,12 @@
 
 /*------------- Footer*/
 /*------------- Fonts, Icons & Buttons*/
+
+.text-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
 .font-style {
     font-family: 'Patrick Hand', cursive;
     color: #C4DFE6;
@@ -43,6 +50,13 @@
 
 .btn {
     color: #F4874B;
+}
+
+.page-btn {
+    border-radius: 50%;
+    color: #F4874B;
+    background-color: #F4874B;
+
 }
 
 #book-here-btn {
