@@ -1,4 +1,13 @@
 /*------------- Images*/
+.active-img-head {
+    background-image: url("../images/Yogatraining1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 910px;
+    width: 1382px;
+}
+
 .bg-img-home {
     background-image: url("../images/yogaoutside2.jpg");
     background-repeat: no-repeat;
@@ -77,6 +86,8 @@
 }
 
 /*------------- Headings*/
+
+
 h5.social {
     text-align: center;
 }
@@ -102,6 +113,7 @@ p.footer-font {
 }
 
 /*------------- Footer*/
+
 footer {
     background-color: #134F5C;
     color: #C4DFE6;
@@ -199,5 +211,9 @@ body {
     display: inline;
 }
 
-/*------------- Images*/
+/*------------- backgrounds*/
+.bg-header {
+    background-color: #003B46;
+}
+
 /*------------- Images*/
