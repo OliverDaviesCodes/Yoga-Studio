@@ -77,9 +77,30 @@
     font-size: 125%;
 }
 
-/*------------- Headings*/
+/*------------- Headings & text*/
 
 
+
+.yoga-heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+.yoga-p {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Activity-heading {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+}
 
 h5.social {
     text-align: center;
@@ -210,20 +231,58 @@ body {
 }
 
 /*------------- backgrounds*/
+.schedule-evening {
+    height: 50%;
+    width: 50%;
+    display: inline;
+    float: right;
+}
+
+.schedule-morning {
+    height: 50%;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.yin-div {
+    text-align: center;
+    background-color: #07575B;
+    height: 40vh;
+    width: 50%;
+    display: inline;
+    float: right;
+}
+
+.vinyasa-div {
+    text-align: center;
+    background-color: #66A5AD;
+    height: 40vh;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
 .activity-head-left {
     background-image: url("../images/Yogatraining1.jpeg");
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 50vh;
     width: 60%;
     background-color: #66A5AD;
     background-size: cover;
     display: inline;
     float: left;
+    position: relative;
 }
 
 .activity-head-right {
     background-color: #003B46;
-    height: 40vh;
+    height: 50vh;
     width: 40%;
     display: inline;
     float: right;
