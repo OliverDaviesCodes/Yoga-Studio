@@ -79,7 +79,58 @@
 
 /*------------- Headings & text*/
 
+.h3-contact-info {
+    padding: 0;
+    margin: 0 auto;
+}
 
+.progressive-heading {
+    padding: 10px 10px;
+}
+
+.progressive-p {
+    padding: 10px 10px;
+}
+
+.mindfulness-heading {
+    padding: 10px 10px;
+}
+
+.mindfulness-p {
+    padding: 10px 10px;
+}
+
+.meditation-heading {
+    height: auto;
+    text-align: center;
+    padding: 230px 100px 0px 100px;
+    margin: 0 auto;
+}
+
+.meditation-p {
+    font-size: 24px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 100px 50px 100px;
+}
+
+
+.yin-heading {
+    padding: 10px 10px;
+}
+
+.yin-p {
+    padding: 10px 10px;
+}
+
+.vinyasa-heading {
+    padding: 10px 10px;
+}
+
+.vinyasa-p {
+    padding: 10px 10px;
+}
 
 .yoga-heading {
     text-align: center;
@@ -143,6 +194,12 @@ footer {
 }
 
 /*------------- Fonts, Icons & Buttons*/
+
+.heading-moon {
+    font-size: 60px;
+    padding: 50px 130px;
+    text-align: center;
+}
 
 .page-icon {
     padding: 0 5px 0 5px;
@@ -231,6 +288,43 @@ body {
 }
 
 /*------------- backgrounds*/
+
+.info-div {
+    background-color: #003B46;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.mindfulness-div {
+    text-align: center;
+    background-color: #66A5AD;
+    height: 40vh;
+    width: 50%;
+    display: inline;
+    float: right;
+}
+
+.progressive-div {
+    text-align: center;
+    background-color: #07575B;
+    height: 40vh;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+
+.meditation-img {
+    background-image: url("../images/meditation2.jpeg");
+    background-color: #003B46;
+    width: 100%;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 .schedule-evening {
     height: 50%;
     width: 50%;
