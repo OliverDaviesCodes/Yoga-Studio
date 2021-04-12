@@ -1,12 +1,4 @@
 /*------------- Images*/
-.active-img-head {
-    background-image: url("../images/Yogatraining1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 910px;
-    width: 1382px;
-}
 
 .bg-img-home {
     background-image: url("../images/yogaoutside2.jpg");
@@ -86,6 +78,7 @@
 }
 
 /*------------- Headings*/
+
 
 
 h5.social {
@@ -206,14 +199,18 @@ body {
     position: relative;
 }
 
+.row {
+    padding: 0;
+    margin: 0;
+}
+
 /*------------- Lists*/
 .li-inline {
     display: inline;
 }
 
 /*------------- backgrounds*/
-.bg-header {
-    background-color: #003B46;
-}
+
+
 
 /*------------- Images*/
