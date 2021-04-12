@@ -210,7 +210,24 @@ body {
 }
 
 /*------------- backgrounds*/
+.activity-head-left {
+    background-image: url("../images/Yogatraining1.jpeg");
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60%;
+    background-color: #66A5AD;
+    background-size: cover;
+    display: inline;
+    float: left;
+}
 
+.activity-head-right {
+    background-color: #003B46;
+    height: 40vh;
+    width: 40%;
+    display: inline;
+    float: right;
+}
 
 
 /*------------- Images*/
