@@ -88,3 +88,15 @@ see the attached Hybrid Mock-ups for the website here --->
 ## Media 
 
 ## Acknowledgements
+https://www.pexels.com/photo/woman-doing-push-ups-2780762/ = yogatraining1
+https://pixabay.com/photos/yoga-outdoor-woman-pose-young-2176668/ = meditation
+https://pixabay.com/photos/yoga-adult-asia-exercise-girl-1822476/ =yoga outside
+https://pixabay.com/photos/yoga-yoga-pose-asana-sunset-woman-5281457/ = yogaoutside
+https://www.pexels.com/photo/woman-in-red-sports-bra-and-green-shorts-sitting-on-purple-carpet-4325484/ =meditation2
+https://www.healthline.com/health/mental-health/types-of-meditation#transcendental-meditation = this is the core info for the diffference in meditations.
+https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply = info for different types of yoga classes
+https://www.pexels.com/photo/black-and-gray-metal-tool-4325451/ = studio1
+https://www.pexels.com/photo/stack-of-colorful-pebbles-near-blue-sea-4335696/ =rocks1
+https://www.freelogodesign.org/manager/showcase/5f45e78a32de4b3586827cb289353398 = logo1
+
+had to move around content in the footer to adjust the size ratio
