@@ -78,6 +78,44 @@
 }
 
 /*------------- Paragraphs*/
+.find-left {
+    font-size: 1.25em;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 50%;
+}
+
+.instructor-text {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.instructor-text-right {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    float: right;
+    padding: 0 75px;
+}
+
+.instructor-text-left {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    padding: 0 75px;
+}
+
+p.story-p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 50px 5px 50px;
+}
+
 .about-text {
     font-size: 28px;
     text-align: center;
@@ -116,6 +154,29 @@
 }
 
 /*------------- Headings & text*/
+
+#find-us-heading {
+    margin: 10px auto;
+    text-decoration: underline;
+
+
+}
+
+.instructor-heading {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.story-heading {
+    text-align: center;
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
 
 .about-heading {
     position: absolute;
@@ -205,6 +266,14 @@ footer {
 }
 
 /*------------- Icons & Buttons*/
+.team-icon {
+    color: #F4874B;
+    margin: 10px auto;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+
 .about-moon {
     font-size: 60px;
     text-align: center;
@@ -278,6 +347,10 @@ footer {
 }
 
 /*------------- General*/
+.map-container {
+    margin: 150px auto;
+}
+
 .color-break {
     background-color: #003B46;
     height: 5em;
@@ -309,6 +382,76 @@ body {
 }
 
 /*------------- backgrounds and background images*/
+.map-container {
+    height: 100px;
+    width: 200px;
+    background-color: #F4874B;
+    float: right;
+}
+
+div.find-us-div {
+    background-color: #003B46;
+    height: 25em;
+    width: 100%;
+    float: left;
+}
+
+div.about-info-color {
+    background-color: #66A5AD;
+}
+
+.instructor-divs {
+    height: 100%;
+    width: 33%;
+}
+
+.instructor1-img {
+    background-image: url("../images/instructor1.png");
+    height: 15em;
+    width: 15em;
+    background-size: contain;
+    float: left;
+    margin: 50px 40px;
+    display: block;
+}
+
+.instructor2-img {
+    background-image: url("../images/instructor2.png");
+    height: 15em;
+    width: 15em;
+    background-size: contain;
+    float: right;
+    margin: 50px 40px;
+    display: block;
+    padding-right: 6em;
+}
+
+.instructor3-img {
+    background-image: url("../images/instructor3.png");
+    height: 15em;
+    width: 15em;
+    background-size: contain;
+    background-position: center;
+    margin: 20px auto;
+    display: block;
+
+}
+
+
+.team-div {
+    background-color: #07575B;
+    height: 30em;
+    width: 100%;
+}
+
+.story-div {
+    background-color: #66A5AD;
+    height: 25em;
+    width: 100%;
+}
+
+
+
 .about-right {
     background-color: #07575B;
     height: 50vh;
