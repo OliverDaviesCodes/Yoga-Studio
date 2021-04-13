@@ -77,34 +77,19 @@
     font-size: 125%;
 }
 
-/*------------- Headings & text*/
-
-.h3-contact-info {
-    padding: 0;
-    margin: 0 auto;
-}
-
-.progressive-heading {
-    padding: 10px 10px;
+/*------------- Paragraphs*/
+.about-text {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 30px;
 }
 
 .progressive-p {
     padding: 10px 10px;
 }
 
-.mindfulness-heading {
-    padding: 10px 10px;
-}
-
 .mindfulness-p {
     padding: 10px 10px;
-}
-
-.meditation-heading {
-    height: auto;
-    text-align: center;
-    padding: 230px 100px 0px 100px;
-    margin: 0 auto;
 }
 
 .meditation-p {
@@ -115,20 +100,56 @@
     padding: 0px 100px 50px 100px;
 }
 
+.yin-p {
+    padding: 10px 10px;
+}
+
+.vinyasa-p {
+    padding: 10px 10px;
+}
+
+.yoga-p {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*------------- Headings & text*/
+
+.about-heading {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    background-color: rgba(0, 59, 70, 0.75);
+    color: #C4DFE6 !important;
+}
+
+.h3-contact-info {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.progressive-heading {
+    padding: 10px 10px;
+}
+
+.mindfulness-heading {
+    padding: 10px 10px;
+}
+
+.meditation-heading {
+    height: auto;
+    text-align: center;
+    padding: 230px 100px 0px 100px;
+    margin: 0 auto;
+}
 
 .yin-heading {
     padding: 10px 10px;
 }
 
-.yin-p {
-    padding: 10px 10px;
-}
-
 .vinyasa-heading {
-    padding: 10px 10px;
-}
-
-.vinyasa-p {
     padding: 10px 10px;
 }
 
@@ -140,13 +161,6 @@
     display: block;
 }
 
-.yoga-p {
-    text-align: center;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 .Activity-heading {
     position: absolute;
     bottom: 0.5em;
@@ -155,10 +169,6 @@
 
 h5.social {
     text-align: center;
-}
-
-p.footer-font {
-    font-size: 16px;
 }
 
 
@@ -172,12 +182,13 @@ p.footer-font {
 
 .heading-home {
     background-color: #003B46;
-    opacity: 0.5;
-    background-size: cover;
-
+    opacity: 0.5
 }
 
 /*------------- Footer*/
+p.footer-font {
+    font-size: 16px;
+}
 
 footer {
     background-color: #134F5C;
@@ -193,7 +204,12 @@ footer {
     font-size: 28px;
 }
 
-/*------------- Fonts, Icons & Buttons*/
+/*------------- Icons & Buttons*/
+.about-moon {
+    font-size: 60px;
+    text-align: center;
+    margin: 50px;
+}
 
 .heading-moon {
     font-size: 60px;
@@ -220,17 +236,6 @@ footer {
     margin: 0;
     color: #003B46;
 }
-
-.text-center {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.font-style {
-    font-family: 'Patrick Hand', cursive;
-    color: #C4DFE6;
-}
-
 
 .btn {
     color: #F4874B;
@@ -272,7 +277,23 @@ footer {
     font-size: 1.5em;
 }
 
-/*------------- Images*/
+/*------------- General*/
+.color-break {
+    background-color: #003B46;
+    height: 5em;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.font-style {
+    font-family: 'Patrick Hand', cursive;
+    color: #C4DFE6;
+}
+
 body {
     position: relative;
 }
@@ -287,7 +308,26 @@ body {
     display: inline;
 }
 
-/*------------- backgrounds*/
+/*------------- backgrounds and background images*/
+.about-right {
+    background-color: #07575B;
+    height: 50vh;
+    width: 40%;
+    display: inline;
+    float: right;
+}
+
+.about-left {
+    background-image: url("../images/studio2.jpg");
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 60%;
+    background-color: #003B46;
+    background-size: cover;
+    display: inline;
+    float: left;
+    position: relative;
+}
 
 .info-div {
     background-color: #003B46;
