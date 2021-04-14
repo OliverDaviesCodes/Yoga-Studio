@@ -78,6 +78,20 @@
 }
 
 /*------------- Paragraphs*/
+.contact-text {
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 30px 0px 30px;
+}
+
+.contact-p-div {
+    background-color: rgba(0, 59, 70, 0.45);
+    margin: 25px 10px;
+    font-size: 18px;
+    padding: 0 0;
+    text-align: center;
+}
+
 .find-left {
     font-size: 1.25em;
     margin: 0 auto;
@@ -154,6 +168,16 @@ p.story-p {
 }
 
 /*------------- Headings & text*/
+
+.contact-heading {
+    background-color: rgba(0, 59, 70, 0.45);
+    margin: 5px auto;
+    padding: 0 auto;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
 
 #find-us-heading {
     margin: 10px auto;
@@ -266,6 +290,25 @@ footer {
 }
 
 /*------------- Icons & Buttons*/
+.submit-form {
+    background-color: #F4874B;
+    color: black;
+    margin: 5px;
+}
+
+.contact-moon {
+    font-size: 60px;
+    text-align: center;
+    margin: 5px;
+}
+
+.contact-logo {
+    background-color: rgba(0, 59, 70, 0.45);
+    height: 175px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .team-icon {
     color: #F4874B;
     margin: 10px auto;
@@ -347,6 +390,17 @@ footer {
 }
 
 /*------------- General*/
+.form-group {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgba(0, 59, 70, 0.5);
+    background-size: cover;
+    margin: 0 20px;
+}
+
 .map-container {
     margin: 150px auto;
 }
@@ -382,6 +436,33 @@ body {
 }
 
 /*------------- backgrounds and background images*/
+
+
+
+
+.contact-left {
+    float: left;
+    height: 500px;
+    width: 45%;
+}
+
+.contact-right {
+    background-color: #07575B;
+    height: 500px;
+    width: 55%;
+    float: right;
+}
+
+
+
+.contact-img {
+    background-image: url("../images/harmony1.jpg");
+    background-repeat: no-repeat;
+    background-color: #66A5AD;
+    background-size: cover;
+
+}
+
 .map-container {
     height: 100px;
     width: 200px;
