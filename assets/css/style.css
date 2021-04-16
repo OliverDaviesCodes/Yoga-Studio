@@ -85,6 +85,21 @@
 }
 
 /*------------- Paragraphs*/
+.booking-text {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 30px 0px 30px;
+}
+
+
+.booking-p-div {
+    background-color: rgba(0, 59, 70, 0.45);
+    margin: 25px 10px;
+    font-size: 18px;
+    padding: 0 0;
+    text-align: center;
+}
+
 .contact-text {
     font-size: 24px;
     text-align: center;
@@ -175,6 +190,14 @@ p.story-p {
 }
 
 /*------------- Headings & text*/
+.booking-heading {
+    background-color: rgba(0, 59, 70, 0.45);
+    margin: 5px auto;
+    padding: 0 auto;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
 
 .contact-heading {
     background-color: rgba(0, 59, 70, 0.45);
@@ -258,6 +281,8 @@ p.story-p {
     bottom: 0.5em;
     right: 1em;
 }
+
+
 
 h5.social {
     text-align: center;
@@ -395,6 +420,10 @@ p.footer-font {
 }
 
 /*------------- General*/
+#booking-info {
+    height: 650px;
+}
+
 .form-group {
     padding: 0 auto;
     margin: 0 auto;
@@ -442,7 +471,26 @@ body {
 
 /*------------- backgrounds and background images*/
 
+#booking-img-background {
+    background-image: url("../images/rocks1.jpeg");
+    background-repeat: no-repeat;
+    background-color: #66A5AD;
+    background-size: cover;
+    background-position: center;
+}
 
+.booking-left {
+    float: left;
+    height: 500px;
+    width: 45%;
+}
+
+.booking-right {
+    background-color: #66A5AD;
+    height: 500px;
+    width: 55%;
+    float: right;
+}
 
 
 .contact-left {
