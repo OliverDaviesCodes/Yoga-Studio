@@ -266,8 +266,7 @@ h5.social {
 }
 
 .heading-home {
-    background-color: #003B46;
-    opacity: 0.5
+    background-color: #003b4685;
 }
 
 /*------------- Footer*/
@@ -364,18 +363,12 @@ footer {
     margin-top: 15px;
 }
 
-#book-here-btn {
+#book-btn {
     background-color: #F4874B;
     color: black;
-    size: 8px;
-    padding: 3px;
-    padding-right: 3px;
     border-radius: 20px;
     position: absolute;
-    top: 0.75em;
-    right: 3em;
-    text-align: left;
-    font-size: 1.25em;
+    text-align: center;
 }
 
 #menu-btn {
