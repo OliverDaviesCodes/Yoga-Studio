@@ -432,11 +432,12 @@ p.footer-font {
 form {
     background-color: rgba(0, 59, 70, 0.5);
     background-size: cover;
-    margin: 0 20px;
+    margin: 0 auto;
+    width: 400px;
 }
 
 .map-container {
-    margin: 150px auto;
+    margin: 50px auto;
 }
 
 .color-break {
@@ -481,13 +482,13 @@ body {
 
 .booking-left {
     float: left;
-    height: 500px;
+    height: 600px;
     width: 45%;
 }
 
 .booking-right {
     background-color: #66A5AD;
-    height: 500px;
+    height: 600px;
     width: 55%;
     float: right;
 }
