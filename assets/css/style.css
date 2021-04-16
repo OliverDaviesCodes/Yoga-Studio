@@ -73,8 +73,12 @@
     max-width: 100%;
 }
 
+.page-selector-heading {
+    font-size: 24px;
+}
+
 .page-selector-p {
-    font-size: 125%;
+    font-size: 20px;
 }
 
 /*------------- Paragraphs*/
@@ -363,11 +367,10 @@ footer {
     margin-top: 15px;
 }
 
-#book-btn {
-    background-color: #F4874B;
-    color: black;
+#booking-btn {
+
+    color: #F4874B;
     border-radius: 20px;
-    position: absolute;
     text-align: center;
 }
 
