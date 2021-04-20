@@ -32,23 +32,32 @@
                 </button>
 
 
-                <button class="btn menu-dropdown" type="button">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <div class="dropdown d-flex">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="activities.html">Activities</a>
+                        <a class="dropdown-item" href="about.html">Who we are</a>
+                        <a class="dropdown-item" href="contact.html">Contact us</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="heading-container font-style d-flex justify-content-center">
-            <div class="heading-home">
+            <div class="heading-home px-5">
                 <h1>Experience. Every. Moment.</h1>
             </div>
         </div>
+
     </header>
 
     <article>
         <section class="container">
             <div class="row font-style">
-                <div class="page-selector-1 page-selector col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="page-selector-1 col-12 col-sm-12 col-md-6 col-lg-4" id="page-selector">
                     <h3 class="text-center page-selector-heading">
                         <i class="fas fa-paint-brush page-icon"></i><u>Who we are</u>
                     </h3>
@@ -67,7 +76,7 @@
                     </p>
                 </div>
 
-                <div class="page-selector-2 page-selector col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="page-selector-2 col-12 col-sm-12 col-md-6 col-lg-4" id="page-selector">
                     <h3 class="text-center page-selector-heading">
                         <i class="fas fa-child page-icon"></i><u>Activities</u>
                     </h3>
@@ -82,20 +91,24 @@
                     </p>
                 </div>
 
-                <div class="page-selector-3 page-selector col-12 col-sm-12 col-md-6 col-lg-4">
-                    <h3 class="text-center page-selector-heading">
-                        <i class="fas fa-book page-icon"></i><u>Book with us</u>
-                    </h3>
+                <div class="page-selector-3  col-12 col-sm-12 col-md-6 col-lg-4" id="page-selector-booking">
 
-                    <p class="text-center page-selector-p">
-                        Join in on one of our incredible activities today. Book with us
-                        below.
+                    <div class="page-selector-text">
+                        <h3 class="text-center page-selector-heading">
+                            <i class="fas fa-book page-icon"></i><u>Book with us</u>
+                        </h3>
 
-                        <br />
-                        <a href="booking.html" class="btn page-btn text-center ">
-                            <i class="fas fa-arrow-circle-down"></i>
-                        </a>
-                    </p>
+                        <p class="text-center page-selector-p">
+                            Join in on one of our incredible activities today. Book with us
+                            below.
+
+                            <br />
+                            <a href="booking.html" class="btn page-btn text-center ">
+                                <i class="fas fa-arrow-circle-down"></i>
+                            </a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -107,16 +120,24 @@
             footer-nav col-md-4 text-center">
                 <h5><u>Zen Studio</u></h5>
                 <nav>
-                    <p class="footer-nav-font pb-1 text-center">
+                    <div class="footer-nav-font pb-1 text-center" id="footer-nav">
+                        <div>
+                            <a href="activities.html">Activities</a>
+                        </div>
+                        <div>
+                            <a href="about.html">Who we are</a>
+                        </div>
+                        <div>
+                            <a href="booking.html">Bookings</a>
+                        </div>
+                        <div>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                        <div>
+                            <a href="index.html">Home</a>
+                        </div>
 
-                        <ul class="footer-nav-list pl-0">
-                            <li><a href="activities.html">Activities</a></li>
-                            <li><a href="about.html">Who we are</a></li>
-                            <li><a href="booking.html">Bookings</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="index.html">Home</a></li>
-                        </ul>
-                    </p>
+                    </div>
                 </nav>
             </div>
             <div class="col-md-4 text-center pt-3">

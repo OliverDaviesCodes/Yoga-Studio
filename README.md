@@ -98,5 +98,6 @@ https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simp
 https://www.pexels.com/photo/black-and-gray-metal-tool-4325451/ = studio1
 https://www.pexels.com/photo/stack-of-colorful-pebbles-near-blue-sea-4335696/ =rocks1
 https://www.freelogodesign.org/manager/showcase/5f45e78a32de4b3586827cb289353398 = logo1
+https://pixabay.com/photos/dusk-lake-nature-water-california-1909693/
 
 had to move around content in the footer to adjust the size ratio

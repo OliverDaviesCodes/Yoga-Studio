@@ -19,6 +19,18 @@
 }
 
 /*------------- Page Selectors*/
+a {
+    color: #F4874B;
+}
+
+#page-selector-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-selector-text {}
+
 .page-selector-1 {
     background-color: #07575B;
     border-radius: 50%;
@@ -302,7 +314,8 @@ h5.social {
 }
 
 /*------------- Footer*/
-.footer-nav-list {
+
+#footer-nav {
     font-size: 16px;
     text-align: center;
 }
@@ -327,6 +340,11 @@ p.footer-font {
 }
 
 /*------------- Icons & Buttons*/
+.btn-secondary {
+    background-color: none;
+    border-color: none;
+}
+
 .submit-form {
     background-color: #F4874B;
     color: black;
@@ -510,7 +528,7 @@ body {
 
 
 .contact-img {
-    background-image: url("../images/harmony1.jpg");
+    background-image: url("../images/contact.jpg");
     background-repeat: no-repeat;
     background-color: #66A5AD;
     background-size: cover;
