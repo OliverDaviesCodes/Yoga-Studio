@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
 
 
     <title>Zen Studio Yoga & Meditation</title>
@@ -23,6 +31,41 @@
 
 <body class="bg-img-home">
     <header>
+        <nav class="navbar row navbar-expand-md nav-light" id="navbar">
+            <img src="./assets/images/logo.png" width="100" height="100" />
+            <button class="navbar-toggler nav-link" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Who We are</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="booking.html">Bookings</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- 
         <div class="row justify-content-between px-4">
             <div class="header-left">
                 <img src="./assets/images/logo.png" width="100" height="100" />
@@ -48,8 +91,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="heading-container font-style d-flex justify-content-center">
+-->
+        <div class="heading-container font-style-heading d-flex justify-content-center">
             <div class="heading-home px-5">
                 <h1>Experience. Every. Moment.</h1>
             </div>
@@ -66,16 +109,15 @@
                     </h3>
 
                     <p class="text-center page-selector-p">
-                        Meet the team and instructors that will be guiding you on your
+                        Meet the team that will be guiding you on your
                         journey and find out how we became the incredible studio that we
                         are today.
 
-                        <br />
-                        <a href="about.html">
-                            <button class="btn page-btn text-center">
-                                <i class="fas fa-arrow-circle-down"></i>
-                            </button>
-                        </a>
+                        <div class="pt-3">
+                            <a href="about.html" class="btn page-btn text-center">
+                                <i class="fas fa-arrow-circle-down" id="page-selector-button"></i>
+                            </a>
+                        </div>
                     </p>
                 </div>
 
@@ -88,9 +130,11 @@
                         Find out about our incredible Courses and day to day activities
                         for everyone to enjoy! The fun starts here.
 
-                        <br />
-                        <a href="activities.html"><button class="btn page-btn text-center">
-                                <i class="fas fa-arrow-circle-down"></i></button></a>
+
+                        <div class="pt-3">
+                            <a href="activities.html" class="btn page-btn text-center">
+                                <i class="fas fa-arrow-circle-down" id="page-selector-button"></i></a>
+                        </div>
                     </p>
                 </div>
 
@@ -105,10 +149,11 @@
                             Join in on one of our incredible activities today. Book with us
                             below.
 
-                            <br />
-                            <a href="booking.html" class="btn page-btn text-center ">
-                                <i class="fas fa-arrow-circle-down"></i>
-                            </a>
+                            <div class="pt-3 page-selector-button">
+                                <a href="booking.html" class="btn page-btn text-center ">
+                                    <i class="fas fa-arrow-circle-down" id="page-selector-button"></i>
+                                </a>
+                            </div>
                         </p>
                     </div>
 
