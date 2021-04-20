@@ -1,3 +1,12 @@
+/*------------- Media Queries*/
+@media all and (max-width: 1100px) {
+
+    .yin-div,
+    .vinyasa-div {
+        width: 100%
+    }
+}
+
 /*------------- Images*/
 
 .bg-img-home {
@@ -29,7 +38,7 @@ a {
     align-items: center;
 }
 
-.page-selector-text {}
+
 
 .page-selector-1 {
     background-color: #07575B;
@@ -340,7 +349,9 @@ p.footer-font {
 }
 
 /*------------- Icons & Buttons*/
-.btn-secondary {
+
+
+#dropdownMenuButton {
     background-color: none;
     border-color: none;
 }
