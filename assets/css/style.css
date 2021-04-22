@@ -223,9 +223,8 @@ p.story-p {
 
 .yoga-p {
     text-align: center;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 25px auto 0 auto;
+
 }
 
 /*------------- Headings & text*/
@@ -672,7 +671,6 @@ div.about-info-color {
 .mindfulness-div {
     text-align: center;
     background-color: #66A5AD;
-    height: 40vh;
     width: 50%;
     display: inline;
     float: right;
@@ -681,7 +679,6 @@ div.about-info-color {
 .progressive-div {
     text-align: center;
     background-color: #07575B;
-    height: 40vh;
     width: 50%;
     display: inline;
     float: left;
@@ -725,7 +722,6 @@ div.about-info-color {
 .yin-div {
     text-align: center;
     background-color: #07575B;
-    height: 40vh;
     width: 50%;
     display: inline;
     float: right;
@@ -734,7 +730,6 @@ div.about-info-color {
 .vinyasa-div {
     text-align: center;
     background-color: #66A5AD;
-    height: 40vh;
     width: 50%;
     display: inline;
     float: left;
