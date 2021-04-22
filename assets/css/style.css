@@ -8,6 +8,10 @@
 }
 
 /*------------- Navbar*/
+.navbar-nav {
+    float: right;
+}
+
 .navbar {
     background-color: #134f5c40;
 }
@@ -498,12 +502,12 @@ form {
 }
 
 .font-style-heading {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Handlee', cursive;
     color: #C4DFE6;
 }
 
 .font-style {
-    font-family: 'Merienda', cursive;
+    font-family: 'Pangolin', cursive;
     color: #C4DFE6;
 }
 
