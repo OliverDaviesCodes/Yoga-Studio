@@ -1,6 +1,10 @@
 /*------------- Media Queries*/
 
 /*------------- Navbar*/
+.navbar-about {
+    background-color: #66A5AD;
+}
+
 .navbar-activities {
     background-color: #07575B;
 }
@@ -151,11 +155,8 @@ footer a {
 }
 
 .find-left {
-    font-size: 1.25em;
+    font-size: 1.2em;
     margin: 0 auto;
-    float: left;
-    height: auto;
-    width: 50%;
 }
 
 .instructor-text {
@@ -168,7 +169,6 @@ footer a {
     text-align: center;
     margin: 0 auto;
     display: block;
-    float: right;
     padding: 0 75px;
 }
 
@@ -176,22 +176,22 @@ footer a {
     text-align: center;
     margin: 0 auto;
     display: block;
-    float: left;
     padding: 0 75px;
 }
 
 p.story-p {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 50px 5px 50px;
+    padding: 5px 25px;
+    margin-bottom: 0;
 }
 
 .about-text {
     font-size: 28px;
     text-align: center;
-    margin: 75px 30px;
+    margin: 50px auto 15px auto;
 }
 
 .progressive-p {
@@ -577,17 +577,14 @@ body {
 }
 
 .map-container {
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     background-color: #F4874B;
-    float: right;
 }
 
 div.find-us-div {
     background-color: #003B46;
-    height: 25em;
     width: 100%;
-    float: left;
 }
 
 div.about-info-color {
@@ -596,7 +593,6 @@ div.about-info-color {
 
 .instructor-divs {
     height: 100%;
-    width: 33%;
 }
 
 .instructor1-img {
@@ -604,8 +600,7 @@ div.about-info-color {
     height: 15em;
     width: 15em;
     background-size: contain;
-    float: left;
-    margin: 50px 40px;
+    margin: 50px auto;
     display: block;
 }
 
@@ -614,10 +609,8 @@ div.about-info-color {
     height: 15em;
     width: 15em;
     background-size: contain;
-    float: right;
-    margin: 50px 40px;
+    margin: 50px auto;
     display: block;
-    padding-right: 6em;
 }
 
 .instructor3-img {
@@ -626,7 +619,7 @@ div.about-info-color {
     width: 15em;
     background-size: contain;
     background-position: center;
-    margin: 20px auto;
+    margin: 50px auto;
     display: block;
 
 }
@@ -634,13 +627,11 @@ div.about-info-color {
 
 .team-div {
     background-color: #07575B;
-    height: 30em;
     width: 100%;
 }
 
 .story-div {
     background-color: #66A5AD;
-    height: 25em;
     width: 100%;
 }
 
@@ -648,8 +639,6 @@ div.about-info-color {
 
 .about-right {
     background-color: #07575B;
-    height: 50vh;
-    width: 40%;
     display: inline;
     float: right;
 }
@@ -657,8 +646,7 @@ div.about-info-color {
 .about-left {
     background-image: url("../images/studio2.jpg");
     background-repeat: no-repeat;
-    height: 50vh;
-    width: 60%;
+    height: 48vh;
     background-color: #003B46;
     background-size: cover;
     display: inline;
