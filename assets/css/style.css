@@ -8,6 +8,10 @@
 }
 
 /*------------- Navbar*/
+.navbar-activities {
+    background-color: #07575B;
+}
+
 .navbar-nav {
     float: right;
 }
@@ -366,6 +370,14 @@ p.footer-font {
 }
 
 /*------------- Icons & Buttons*/
+.btn-info-book {
+    background-color: #07575B;
+}
+
+.btn-info-contact {
+    background-color: #07575B;
+}
+
 a:hover {
     color: #66A5AD;
 }
