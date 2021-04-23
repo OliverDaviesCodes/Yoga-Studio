@@ -1,11 +1,4 @@
 /*------------- Media Queries*/
-@media all and (max-width: 1100px) {
-
-    .yin-div,
-    .vinyasa-div {
-        width: 100%
-    }
-}
 
 /*------------- Navbar*/
 .navbar-activities {
@@ -683,16 +676,12 @@ div.about-info-color {
 .mindfulness-div {
     text-align: center;
     background-color: #66A5AD;
-    width: 50%;
-    display: inline;
     float: right;
 }
 
 .progressive-div {
     text-align: center;
     background-color: #07575B;
-    width: 50%;
-    display: inline;
     float: left;
 }
 
@@ -734,7 +723,6 @@ div.about-info-color {
 .yin-div {
     text-align: center;
     background-color: #07575B;
-    width: 50%;
     display: inline;
     float: right;
 }
@@ -742,7 +730,6 @@ div.about-info-color {
 .vinyasa-div {
     text-align: center;
     background-color: #66A5AD;
-    width: 50%;
     display: inline;
     float: left;
 }
@@ -750,21 +737,16 @@ div.about-info-color {
 .activity-head-left {
     background-image: url("../images/Yogatraining1.jpeg");
     background-repeat: no-repeat;
-    height: 50vh;
-    width: 60%;
     background-color: #66A5AD;
     background-size: cover;
+    height: 48vh;
     display: inline;
-    float: left;
     position: relative;
 }
 
 .activity-head-right {
     background-color: #003B46;
-    height: 50vh;
-    width: 40%;
     display: inline;
-    float: right;
 }
 
 
