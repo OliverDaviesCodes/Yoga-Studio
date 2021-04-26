@@ -32,17 +32,48 @@
 
 <body class="font-style">
 
+    <header>
+        <nav class="navbar-booking row navbar-expand-md nav-light col-12" id="navbar">
+            <div>
+                <img src="./assets/images/logo.png" width="100" height="100" />
+            </div>
+            <button class="navbar-toggler nav-link pr-4" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse pr-2" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mr-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Who We are</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="booking.html">Bookings</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <article>
-        <section id="Booking-info" class="container-fluid">
+        <section id="Booking-info" class="container-fluid row">
 
-            <div class="booking-img booking-left" id="booking-img-background">
-                <div class="row justify-content-between px-4">
-                    <div class="header-left">
-                        <img src="./assets/images/logo.png" width="100" height="100" />
-                    </div>
-
-                </div>
+            <div class="booking-img booking-left col-sm-12 col-md-5 pt-5" id="booking-img-background">
 
                 <div class="booking-heading-div">
 
@@ -53,27 +84,37 @@
                 </div>
 
 
-                <div class="booking-p-div d-flex justify-content-row">
+                <div class="booking-p-div row pt-4 mt-4">
 
-                    <div class="booking-p-left">
+                    <div class="booking-p-left col-sm-12">
                         <p>
-                            Still feel like you need some help? Feel free to call or email us at:
-                            <br>
+                            <div>
+                                Still feel like you need some help? Feel free to call or email us at:
+                            </div>
+
                             <!-- add theses in to div and spans instead of using brs . style with css then for outcome-->
-                            <br>
-                            Email: ZenStudio@hotmail.se
-                            <br>
-                            Phone: +555 739 7834
+                            <div>
+                                Email: ZenStudio@hotmail.se
+                            </div>
+
+                            <div>
+                                Phone: +555 739 7834
+                            </div>
+
                         </p>
                     </div>
 
-                    <div class="booking-p-right">
+                    <div class="booking-p-right col-sm-12">
                         <p>
-                            Or pop in and visit our facilities at:
-                            <br>
-                            <br>
-                            Our address is : 169 70 Solna, Brunnsviksvägen
-                            We are located just next to the lake.
+                            <div>
+                                Or pop in and visit our facilities at:
+                            </div>
+                            <div></div>
+                            <div>
+                                Our address is : 169 70 Solna, Brunnsviksvägen
+                                We are located just next to the lake.
+                            </div>
+
                         </p>
                     </div>
 
@@ -81,12 +122,7 @@
 
             </div>
 
-        </section>
-
-        <section id="booking-form">
-            <div class="booking-right">
-
-                <button class="btn menu-dropdown" type="button" id="menu-btn"><i class="fas fa-bars"></i></button>
+            <div class="booking-right col-sm-12 col-md-7 pb-3" id="booking-form">
 
                 <p class="booking-text">
                     <i class="far fa-moon contact-moon"></i>

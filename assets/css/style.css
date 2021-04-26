@@ -3,9 +3,17 @@
     form {
         width: 250px;
     }
+
+    .meditation-p .meditation-heading {
+        font-size: 20px;
+    }
 }
 
 /*------------- Navbar*/
+.navbar-booking {
+    background-color: #07575B;
+}
+
 .navbar-contact {
     background-color: #003B46;
 }
@@ -159,7 +167,7 @@ footer a {
     background-color: rgba(0, 59, 70, 0.45);
     margin: 25px 10px;
     font-size: 18px;
-    padding: 0 0;
+    padding: 0 auto;
     text-align: center;
 }
 
@@ -213,10 +221,9 @@ p.story-p {
 
 .meditation-p {
     font-size: 24px;
-    height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 0px 100px 50px 100px;
+    padding-bottom: 30px;
 }
 
 .yin-p {
@@ -229,7 +236,7 @@ p.story-p {
 
 .yoga-p {
     text-align: center;
-    margin: 25px auto 0 auto;
+    margin: 25px auto;
 
 }
 
@@ -298,9 +305,8 @@ p.story-p {
 }
 
 .meditation-heading {
-    height: auto;
     text-align: center;
-    padding: 230px 100px 0px 100px;
+    padding-top: 200px;
     margin: 0 auto;
 }
 
@@ -315,8 +321,8 @@ p.story-p {
 .yoga-heading {
     text-align: center;
     margin-top: 100px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
 }
 
@@ -483,9 +489,6 @@ a:hover {
 }
 
 /*------------- General*/
-#booking-info {
-    height: 650px;
-}
 
 .form-group {
     padding: 0 auto;
@@ -520,9 +523,10 @@ form {
 }
 
 .font-style {
-    font-family: 'Pangolin', cursive;
+    font-family: 'Yantramanav', sans-serif;
     color: #C4DFE6;
 }
+
 
 body {
     position: relative;
@@ -550,15 +554,10 @@ body {
 
 .booking-left {
     float: left;
-    height: 600px;
-    width: 45%;
 }
 
 .booking-right {
     background-color: #66A5AD;
-    height: 600px;
-    width: 55%;
-    float: right;
 }
 
 
@@ -683,7 +682,6 @@ div.about-info-color {
     background-image: url("../images/meditation2.jpeg");
     background-color: #003B46;
     width: 100%;
-    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -732,7 +730,6 @@ div.about-info-color {
     background-repeat: no-repeat;
     background-color: #66A5AD;
     background-size: cover;
-    height: 48vh;
     display: inline;
     position: relative;
 }
