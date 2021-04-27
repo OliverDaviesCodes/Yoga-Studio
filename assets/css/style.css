@@ -1,13 +1,4 @@
 /*------------- Media Queries*/
-@media all and (max-width: 430px) {
-    form {
-        width: 250px;
-    }
-
-    .meditation-p .meditation-heading {
-        font-size: 20px;
-    }
-}
 
 /*------------- Navbar*/
 .navbar-booking {
@@ -741,3 +732,38 @@ div.about-info-color {
 
 
 /*------------- Images*/
+@media all and (max-width: 430px) {
+
+    @media all and (max-width: 430px) {
+
+        .meditation-p,
+        .meditation-heading {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .meditation-heading {
+            color: red;
+        }
+    }
+
+    .meditation-heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .meditation-heading {
+        color: red;
+    }
+}
+
+
+/* 
+box shadow for forms 
+
+padding: 10px;
+border-radius: 3px;
+box-shadow: 0px 0px 3px rgb(0 0 0);
+*/
