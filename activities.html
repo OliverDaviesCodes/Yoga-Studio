@@ -32,43 +32,40 @@
 
 <body class="font-style">
     <header>
-        <div class="container-fluid row">
+        <nav class="navbar-activities row fixed-top navbar-expand-md nav-light" id="navbar">
+            <div>
+                <img src="./assets/images/logo.png" width="100" height="100" />
+            </div>
+            <button class="navbar-toggler nav-link pr-4" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
 
-            <nav class="navbar-activities row navbar-expand-md nav-light col-12" id="navbar">
-                <div>
-                    <img src="./assets/images/logo.png" width="100" height="100" />
-                </div>
-                <button class="navbar-toggler nav-link pr-4" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
+            <div class="collapse navbar-collapse pr-2" id="navbarSupportedContent">
 
-                <div class="collapse navbar-collapse pr-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book Here</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                    <ul class="navbar-nav mr-2">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="activities.html">Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Who We are</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Contact us
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="contact.html">Contact Us</a>
-                                <a class="dropdown-item" href="booking.html">Bookings</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="spacer"></div>
+
     </header>
     <Section class="container-fluid row">
         <div class="activity-head-left col-sm-12 col-md-7 col-lg-8 ">
@@ -84,13 +81,14 @@
             </div>
 
             <div class="row">
-                <p class="yoga-p pb-5 font-style-heading">
+                <p class="yoga-p font-style-heading">
                     Through one of our unique classes. Our Instructors can offer yoga
                     classes that range in challenge, flow and style to fit every experience level.
-                    <br>
-
-                    <i class="far fa-moon heading-moon"></i>
                 </p>
+
+                <div class="activities-icon pb-5">
+                    <i class="far fa-moon heading-moon"></i>
+                </div>
 
 
             </div>
@@ -221,7 +219,7 @@
         <section class="container-fluid row">
             <div class="row meditation-img">
                 <div class="col-12">
-                    <h2 class="meditation-heading">Participate in one of our Core meditation classes!!! </h2>
+                    <h2 class="meditation-heading">Participate in one of our Core meditation classes </h2>
                     <p class="meditation-p">Let one our Instructors guide you down a path of calmness and relaxation
                     </p>
                 </div>

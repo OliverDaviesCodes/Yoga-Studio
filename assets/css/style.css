@@ -1,20 +1,31 @@
 /*------------- Media Queries*/
 
 /*------------- Navbar*/
+.spacer {
+    height: 100px;
+    width: 100%;
+}
+
 .navbar-booking {
     background-color: #07575B;
+    justify-content: space-between;
+
 }
 
 .navbar-contact {
     background-color: #003B46;
+    justify-content: space-between;
 }
 
 .navbar-about {
     background-color: #66A5AD;
+    justify-content: space-between;
+
 }
 
 .navbar-activities {
     background-color: #07575B;
+    justify-content: space-between;
 }
 
 .navbar-nav {
@@ -156,9 +167,9 @@ footer a {
 
 .contact-p-div {
     background-color: rgba(0, 59, 70, 0.45);
-    margin: 25px 10px;
+    margin: 100px 20px;
     font-size: 18px;
-    padding: 0 auto;
+    padding: 25px;
     text-align: center;
 }
 
@@ -247,7 +258,7 @@ p.story-p {
     padding: 0 auto;
     text-align: center;
     width: 50%;
-    height: 100%;
+
 }
 
 
@@ -420,9 +431,12 @@ a:hover {
     margin: 50px;
 }
 
+.activities-icon {
+    margin: 0 auto;
+}
+
 .heading-moon {
     font-size: 60px;
-    padding: 50px 130px;
     text-align: center;
 }
 
@@ -722,7 +736,6 @@ div.about-info-color {
     background-color: #66A5AD;
     background-size: cover;
     display: inline;
-    position: relative;
 }
 
 .activity-head-right {
@@ -753,12 +766,12 @@ div.about-info-color {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .meditation-heading {
-        color: red;
+
+@media all and (max-width: 767px) {
+    .activity-head-left {
+        height: 300px;
     }
 }
-
 
 /* 
 box shadow for forms 
