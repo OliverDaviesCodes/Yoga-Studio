@@ -13,7 +13,7 @@
 }
 
 .navbar-contact {
-    background-color: #003b46d1;
+    background-color: #003b46ed;
     justify-content: space-between;
 }
 
@@ -288,7 +288,7 @@ p.story-p {
     position: absolute;
     bottom: 0.5em;
     right: 1em;
-    background-color: rgba(0, 59, 70, 0.75);
+
     color: #C4DFE6 !important;
 }
 
@@ -665,6 +665,7 @@ div.about-info-color {
     background-image: url("../images/yoga-stand-in-hands-silhouette-2149407_960_720.jpg");
     background-repeat: no-repeat;
     background-color: #003B46;
+    background-position: center;
     background-size: cover;
     display: inline;
 }
@@ -740,6 +741,7 @@ div.about-info-color {
     background-image: url("../images/Yogatraining1.jpeg");
     background-repeat: no-repeat;
     background-color: #66A5AD;
+    background-position: center;
     background-size: cover;
     display: inline;
 }
