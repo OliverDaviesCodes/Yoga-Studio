@@ -13,6 +13,9 @@ There will be an in-depth story into the team and how the studio came to be so y
 
 see the attached Hybrid Mock-ups for the website here ---> 
 
+! [Wireframes](/images/Wireframes.pdf)
+
+
 ## User Experience (UX)
 
 
@@ -23,28 +26,28 @@ see the attached Hybrid Mock-ups for the website here --->
     Home page, about us and contact and Bookings page and is identical in each page to allow for easy navigation.
   * This is created for ease of navigation continously around the site. The navbar will also be fixed so that it can be accessed from any point on a page
     for easier user experience
+  * The navbar is built responsively so on small screen sizes the nav menu will collapse into a burger icon for ease of use and anti-cluttering
 
 ## Home Page Features
 
 * Menu Button - designed to create a drop down menu with a selection of access pages for ux design
 * Main Heading - designed to be eye catching and create a sense of experience when read so users feel the need to progress further into the website
+  the animation is used to be eye catching and create an introduction to the Yoga studio 
 * 3 page selectors - these are designed with a brief description of each page and a visual structure that revolves around the websites design, they also have a linked button to each web page for user experience and ease of movement through the site
-* background image is meant ot be fixed and create a sense of relaxtion and joy as you go through the minimilistic home page
-* footer is found through-out and is place for external information and guidance so that users can find more specific info and link to social links if they want to get involved with the studio further.
-  
+* background image is meant to be fixed and create a sense of relaxtion and joy as you go through the minimilistic home page
+* footer is found through-out and is placed for external information and guidance so that users can find more specific info and link to social links if they want to get involved with the studio further.
+   
 # 
 
 ## Activities Page Features
 
-* Menu Button - designed to create a drop down menu with a selection of access pages for ux design
-* Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
-* Heading and page introduction focused on identifying user location
-* Vinyasa Yoga Activity - This is one of the 2 available yoga classes focused on strength training and has a description about the type of yoga it is.
-* Yin Yoga - this is one of the 2 available yoga classes and focuses more on the flexibility and relaxation in yoga and also contains a description about the type of yoga it is.
+* Heading and page introduction focused on identifying user location and content of the page
+* Vinyasa Yoga Activity - This is one of the 2 available yoga classes focused on strength training and has a description about the type of yoga it is. As well as the scheduling of the relative classes
+* Yin Yoga - this is one of the 2 available yoga classes and focuses more on the flexibility and relaxation in yoga and also contains a description about the type of yoga it is. As well as the scheduling of the relative classes
 * Meditation heading and introduction focused on user experience
 * Progressive Relaxation Meditation - with a description on the type of meditation and the classes and time frames available
 * Mindfulness meditation - with a description on the type of meditation and the classes and time frames available
-* Motivational Input page encouraging booking and contacting the web owners for questions or booking.
+* This is a marketing segement designed around Motivational Input encouraging booking and contacting the web owners for questions or availability.
 * Footer
 
 
@@ -52,24 +55,22 @@ see the attached Hybrid Mock-ups for the website here --->
 
 ## Who We Are Page Features
 
-*  Menu Button - designed to create a drop down menu with a selection of access pages for ux design
-*  Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
-*  Heading and page introduction focused on identifying user location
-*  Heading and description about the studio and its story focused on giving insight into how the studio came to be.
-*  Meet the team section introducing the instructors and their roles in the company.
+*  Heading and page introduction focused on identifying user location and page content
+*  Heading and description about the studio and its story focused on giving insight into how the studio was constructed.
+*  Meet the team section introducing the instructors and their roles in the company. This is implemented to give users the opportunity to get to know the people they will work with before hand
 *  Where to find us Section providing Location and addresses for the studio. Through an accesible map or hard address
    as well as operating hours for user convenience.
-* Motivational Input page encouraging booking and contacting the web owners for questions or booking.
+* This is a marketing segement designed around Motivational Input encouraging booking and contacting the web owners for questions or availability.
 * Footer
 
 # 
 
 ## Contact Page Features 
 
-*  Menu Button - designed to create a drop down menu with a selection of access pages for ux design
-*  Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
+*  Background image is cool and corresponds to the sites modern colouring creating a sense of peace and ease 
 *  Heading and page introduction focused on identifying user location
 *  description and form related to the contact us section hoping for users to contact the owners easily through the outputted form
+   with various selections and options for ease of contact
 *  Footer
 
 
@@ -77,13 +78,20 @@ see the attached Hybrid Mock-ups for the website here --->
 
 ## Booking Page Features
 
-*  Menu Button - designed to create a drop down menu with a selection of access pages for ux design
-*  Logo designed to be visually aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
+*  Background image is cool and corresponds to the sites modern colouring creating a sense of peace and ease 
 *  Heading and page introduction focused on identifying user location
-*  description and form related to the contact us section hoping for users to contact the owners easily through the outputted form
+*  description and form related to the booking section hoping for users to contact the owners easily through the outputted form
+   with various options and choices for bookings.
 *  Footer
  
-# 
+## Footer
+
+* The footer section includes links to the relevant social media sites (These sites dont exist but for references they are here) for Zen Studio. The links will open to a new tab to allow easy navigation for the user.
+* The footer is valuable as it encourages connection through social media and further navigation of the site at the end of the page
+
+#  
+
+## Design
 
 ## Features left to implement
 
