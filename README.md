@@ -13,7 +13,7 @@ There will be an in-depth story into the team and how the studio came to be so y
 
 see the attached Hybrid Mock-ups for the website here ---> 
 
-! [Wireframes](/images/Wireframes.pdf)
+! [Wireframe home page](./images/wireframe-1.png)
 
 
 ## User Experience (UX)
