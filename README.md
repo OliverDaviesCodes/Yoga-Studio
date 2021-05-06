@@ -1,25 +1,35 @@
 # Zen Studio
-The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
-four main pages. The idea of the website is to attreact all individuals looking to get into yoga and meditation
-from any background and skill level, with a main focus on strength classes and flexibility classes with various mediation classes following on in the day.
 
+## About
+The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
+five main pages. The idea of the website is to attract all individuals looking to get into yoga and meditation
+from any background and skill level emphasizing the ease for beginners to join in and be apart of the studio, with a main focus on strength classes and flexibility classes with various mediation classes following on in the day.
+The site should have a very easy flow and navigation feel with a more minimalist set up making user experience refined and simple to navigate where they wish to go.
 # 
 
 The website is aimed at all age groups and skill levels as there will be various classes and for each individual skill level.
 With a focus on attracting New individuals who would like to try yoga or meditation for the first time.
+There will be an in-depth story into the team and how the studio came to be so you feel welcomed from the minute you read to the minute that you book through the site.
 
 see the attached Hybrid Mock-ups for the website here ---> 
 
-# 
+## User Experience (UX)
+
+
+
+
+## Navbar Features
+  * Featured on all five pages, the full responsive navigation bar includes links to the Logo,
+    Home page, about us and contact and Bookings page and is identical in each page to allow for easy navigation.
+  * This is created for ease of navigation continously around the site. The navbar will also be fixed so that it can be accessed from any point on a page
+    for easier user experience
 
 ## Home Page Features
 
-* Book Here! button - allows users to jump straight to the booking page of the site if looking
-* Logo designed to be visual aesthetic an interest people in the name of the studio well creating a constant visual reminder through-out the website
 * Menu Button - designed to create a drop down menu with a selection of access pages for ux design
 * Main Heading - designed to be eye catching and create a sense of experience when read so users feel the need to progress further into the website
-* 4 page selectors - these are designed with a brief description of each page and a visual structure that revolves around the websites design, they also have a linked button to each web page for user experience and ease of movement through the site
-* background image is meant ot be fixed and create a sense of relaxtion and joy as you go through the minimilistic home page showing the beauty of whats to come from yoga
+* 3 page selectors - these are designed with a brief description of each page and a visual structure that revolves around the websites design, they also have a linked button to each web page for user experience and ease of movement through the site
+* background image is meant ot be fixed and create a sense of relaxtion and joy as you go through the minimilistic home page
 * footer is found through-out and is place for external information and guidance so that users can find more specific info and link to social links if they want to get involved with the studio further.
   
 # 
