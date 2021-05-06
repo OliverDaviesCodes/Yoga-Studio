@@ -12,8 +12,17 @@ With a focus on attracting New individuals who would like to try yoga or meditat
 There will be an in-depth story into the team and how the studio came to be so you feel welcomed from the minute you read to the minute that you book through the site.
 
 see the attached Hybrid Mock-ups for the website here ---> 
+I took it one step further than a basic wireframe when designing the site as it was my first website and thus created the hybrid mockups as seen below
 
-! [Wireframe home page](./images/wireframe-1.png)
+! [Wireframe home page](/workspace/Yoga-Studio/assets/images/wireframe-1.png)
+
+! [Wireframe Activities page](/workspace/Yoga-Studio/assets/images/wireframe-2.png)
+
+! [Wireframe About page](/workspace/Yoga-Studio/assets/images/wireframe-3.png)
+
+! [Wireframe Contact page](/workspace/Yoga-Studio/assets/images/wireframe-4.png)
+
+! [Wireframe Booking page](/workspace/Yoga-Studio/assets/images/wireframe-5.png)
 
 
 ## User Experience (UX)
@@ -92,6 +101,12 @@ see the attached Hybrid Mock-ups for the website here --->
 #  
 
 ## Design
+  
+  ### Colours
+    I used a very cool colour palette across my entire project keeping things
+    consistant for aesthetic viewing. I did this through https://coolors.co/
+ 
+ ! [Colour Palette](/workspace/Yoga-Studio/assets/images/color-palette.png)
 
 ## Features left to implement
 
