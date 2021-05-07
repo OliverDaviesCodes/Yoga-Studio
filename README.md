@@ -14,16 +14,45 @@ There will be an in-depth story into the team and how the studio came to be so y
 see the attached Hybrid Mock-ups for the website here ---> 
 I took it one step further than a basic wireframe when designing the site as it was my first website and thus created the hybrid mockups as seen below
 
+## Wireframes
+I used Balsamiq to create my wireframes. It is beginner-friendly and very easy to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
+
 ! [Wireframe home page](/workspace/Yoga-Studio/assets/images/wireframe-1.png)
 
+### Differences in deployed version:
+ * Created fresh Navbar to cover top segment of all pages
+ * decreased Page selectors down from 4 to 3 to create more space on the page
+ * adjusted animation and font-styling in accordance to the design and flow of the website.
+
 ! [Wireframe Activities page](/workspace/Yoga-Studio/assets/images/wireframe-2.png)
+### Differences in deployed version:
+ * Created fresh Navbar to cover top segment of all pages
+ * adjusted div sizing and spacing for a more aesthetic viewing
+ * removed some content on smaller screen sizes for aanti-cluttering
 
 ! [Wireframe About page](/workspace/Yoga-Studio/assets/images/wireframe-3.png)
+### Differences in deployed version:
+ * Created fresh Navbar to cover top segment of all pages
+ * Changed initial image to work more with the colors of the site
+ * adjusted div sizing and spacing for a more aesthetic viewing
+ * removed some content on smaller screen sizes for aanti-cluttering
+ * implemented a responsivce google map to identify location and area
 
 ! [Wireframe Contact page](/workspace/Yoga-Studio/assets/images/wireframe-4.png)
 
+### Differences in deployed version:
+ * Created fresh Navbar to cover top segment of all pages
+ * Changed initial image to work more with the colors of the site
+ * adjusted div sizing and spacing for a more aesthetic viewing
+ * implemented box shadowing on the form for a more visual effect
+
+
 ! [Wireframe Booking page](/workspace/Yoga-Studio/assets/images/wireframe-5.png)
 
+### Differences in deployed version:
+ * Created fresh Navbar to cover top segment of all pages
+ * adjusted div sizing and spacing for a more aesthetic viewing
+ * implemented box shadowing on the form for a more visual effect
 
 ## User Experience (UX)
 
@@ -108,7 +137,13 @@ I took it one step further than a basic wireframe when designing the site as it 
  
  ! [Colour Palette](/workspace/Yoga-Studio/assets/images/color-palette.png)
 
+ ### Font and styling
+    I went with google fonts as my primary choice of font picking and used the font realtions tool to pick the optimal fonts for my project varying with style from headings to text
+    I ended up with 3 main fonts. These where Handlee, Montseratt and railway Which all paired well through the styling phase of the project
+
 ## Features left to implement
+
+
 
 ## Technologies Used
 
