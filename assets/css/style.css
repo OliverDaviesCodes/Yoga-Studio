@@ -73,7 +73,7 @@
 }
 
 /*------------- Page Selectors*/
-#page-selector-button {
+.page-selector-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -542,6 +542,7 @@ a:hover {
     margin-top: 15px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #booking-btn {

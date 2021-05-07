@@ -35,11 +35,11 @@
     <header>
         <nav class="navbar-contact row fixed-top navbar-expand-md nav-light" id="navbar">
             <div>
-                <img src="./assets/images/logo.png" width="100" height="100" />
+                <img src="./assets/images/logo.png" width="100" height="100" alt="Zen Studio logo" />
             </div>
             <button class="navbar-toggler nav-link pr-4" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation" id="menu">
                 <i class="fas fa-bars"></i>
             </button>
 
@@ -48,19 +48,21 @@
 
                 <ul class="navbar-nav mr-2">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html" aria-labelledby="navbarSupportedContent">Home <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="activities.html">Activities</a>
+                        <a class="nav-link" href="activities.html"
+                            aria-labelledby="navbarSupportedContent">Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About us</a>
+                        <a class="nav-link" href="about.html" aria-labelledby="navbarSupportedContent">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
+                        <a class="nav-link" href="contact.html" aria-labelledby="navbarSupportedContent">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="booking.html">Book Here</a>
+                        <a class="nav-link" href="booking.html" aria-labelledby="navbarSupportedContent">Book Here</a>
                     </li>
                 </ul>
             </div>
@@ -70,109 +72,109 @@
 
     </header>
 
-    <article>
-        <section id="contact-info" class="container-fluid row">
-            <div class="contact-img contact-left container col-sm-12 col-md-5 " id="contact-img-background">
 
-                <div class="contact-heading-div pt-5">
+    <section id="contact-info" class="container-fluid row">
+        <div class="contact-img contact-left container col-sm-12 col-md-5 " id="contact-img-background">
 
-                    <h2 class="contact-heading">
-                        Contact Us!
+            <div class="contact-heading-div pt-5">
+
+                <h2 class="contact-heading">
+                    Contact Us!
+                    <br>
+                    <i></i>
+                </h2>
+
+            </div>
+
+
+            <div class="contact-p-div">
+
+                <div class="contact-p-left pb-2">
+                    <p>
+                        Still feel like you need some help? Feel free to call or email us at:
                         <br>
-                        <i></i>
-                    </h2>
-
+                        Email: ZenStudio@hotmail.se
+                        <br>
+                        Phone: +555 739 7834
+                    </p>
                 </div>
 
-
-                <div class="contact-p-div">
-
-                    <div class="contact-p-left pb-2">
-                        <p>
-                            Still feel like you need some help? Feel free to call or email us at:
-                            <br>
-                            Email: ZenStudio@hotmail.se
-                            <br>
-                            Phone: +555 739 7834
-                        </p>
-                    </div>
-
-                    <div class="contact-p-right">
-                        <p>
-                            Or pop in and visit our facilities at:
-                            <br>
-                            Our address is : 169 70 Solna, Brunnsviksvägen
-                            We are located just next to the lake.
-                        </p>
-                    </div>
-
+                <div class="contact-p-right">
+                    <p>
+                        Or pop in and visit our facilities at:
+                        <br>
+                        Our address is : 169 70 Solna, Brunnsviksvägen
+                        We are located just next to the lake.
+                    </p>
                 </div>
 
             </div>
 
-            <div class="contact-right container col-sm-12 col-md-7 pb-3" id="contact-form">
+        </div>
 
-                <p class="contact-text pb-3">
-                    <i class="far fa-moon contact-moon"></i>
-                    <br>
-                    Got some questions or enquiries contact us here and we will
-                    get back to you shortly.
-                </p>
-                <form class="mb-3">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="name" class="form-control" id="name" placeholder="John Snow" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-                    </div>
+        <div class="contact-right container col-sm-12 col-md-7 pb-3" id="contact-form">
 
-                    <div class="form-group">
-                        <label for="subject-choice">Subject</label>
-                        <select class="form-control" id="subject-choice" required>
-                            <option>Yoga</option>
-                            <option>Meditation</option>
-                            <option>Booking</option>
-                            <option>General Questions</option>
-                            <option>Prices</option>
-                        </select>
-                    </div>
+            <p class="contact-text pb-3">
+                <i class="far fa-moon contact-moon"></i>
+                <br>
+                Got some questions or enquiries contact us here and we will
+                get back to you shortly.
+            </p>
+            <form class="mb-3">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Snow" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
 
-                    <div class="form-group">
-                        <label for="questions">Write what you would like to say here.</label>
-                        <textarea class="form-control" id="questions" rows="1" required></textarea>
-                    </div>
+                <div class="form-group">
+                    <label for="subject-choice">Subject</label>
+                    <select class="form-control" id="subject-choice" size="5" required>
+                        <option>Yoga</option>
+                        <option>Meditation</option>
+                        <option>Booking</option>
+                        <option>General Questions</option>
+                        <option>Prices</option>
+                    </select>
+                </div>
 
-                    <input type="submit" value="Submit" id="submit" name="submit" class="submit-form">
-                </form>
+                <div class="form-group">
+                    <label for="questions">Write what you would like to say here.</label>
+                    <textarea class="form-control" id="questions" rows="1" required></textarea>
+                </div>
+
+                <input type="submit" value="Submit" id="submit" name="submit" class="submit-form" aria-label="Submit">
+            </form>
 
 
 
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="container-fluid">
-            <div class="info-div" id="information-section">
-                <h3 class="pt-3">
-                    Interested in what we have to offer?
-                    <br>
-                    <a class="btn btn-info-book font-style mb-2 mt-2" href="booking.html" type="button"
-                        id="book-info-btn">Book
-                        Here!</a>
-                </h3>
-                <h3 class="h3-contact-info pb-3">
-                    Have any questions or would like a bit more information?
-                    <br>
-                    <a class="btn btn-info-contact font-style mb-3 mt-2" href="contact.html" type="button"
-                        id="contact-info-btn">Contact
-                        Us!</a>
-                </h3>
-            </div>
-        </section>
+    <section class="container-fluid">
+        <div class="info-div" id="information-section">
+            <h3 class="pt-3">
+                Interested in what we have to offer?
+                <br>
+                <a class="btn btn-info-book font-style mb-2 mt-2" href="booking.html" id="book-info-btn"
+                    aria-label="booking page">Book
+                    Here!</a>
+            </h3>
+            <h3 class="h3-contact-info pb-3">
+                Have any questions or would like a bit more information?
+                <br>
+                <a class="btn btn-info-contact font-style mb-3 mt-2" href="contact.html" id="contact-info-btn"
+                    aria-label="contact page">Contact
+                    Us!</a>
+            </h3>
+        </div>
+    </section>
 
-    </article>
+
 
     <footer class="container-fluid footer font-style mt-0 p-3" id="footer">
         <div class="row footer-div pt-5">

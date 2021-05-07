@@ -34,31 +34,32 @@
     <header>
         <nav class="navbar-about row fixed-top navbar-expand-md nav-light" id="navbar">
             <div>
-                <img src="./assets/images/logo.png" width="100" height="100" />
+                <img src="./assets/images/logo.png" width="100" height="100" alt="Zen Studio logo" />
             </div>
             <button class="navbar-toggler nav-link pr-4" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" aria-label="menu"></i>
             </button>
 
             <div class="collapse navbar-collapse pr-2" id="navbarSupportedContent">
 
                 <ul class="navbar-nav mr-2">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html" aria-labelledby="nav-item">Home <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="activities.html">Activities</a>
+                        <a class="nav-link" href="activities.html" aria-labelledby="nav-item">Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About us</a>
+                        <a class="nav-link" href="about.html" aria-labelledby="nav-item">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
+                        <a class="nav-link" href="contact.html" aria-labelledby="nav-item">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="booking.html">Book Here</a>
+                        <a class="nav-link" href="booking.html" aria-labelledby="nav-item">Book Here</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +68,7 @@
         <div class="spacer"></div>
 
         <div class="row">
-            <div class="about-left col-sm-12 col-md-7">
+            <div class="about-left col-sm-12 col-md-7" alt="Image of a person doing a headstand by the ocean">
 
                 <h2 class="about-heading font-style-heading1 p-1">Who we are</h2>
             </div>
@@ -126,7 +127,7 @@
 
                 <div class="row">
                     <div class="instructor-divs col-xs-12 col-sm-6 col-lg-4" id="Instructor-information">
-                        <div class="instructor1-img"></div>
+                        <div class="instructor1-img" alt="Image of one of the instructors"></div>
                         <br>
                         <p class="instructor-text-left">
                             Frida Pedersen
@@ -140,7 +141,7 @@
                     <div class="instructor-divs col-xs-12 col-sm-6 col-lg-4">
 
 
-                        <div class="instructor3-img"></div>
+                        <div class="instructor3-img" alt="Image of one of the instructors"></div>
                         <p class="instructor-text">
                             Jessica James
                             <br>
@@ -150,7 +151,7 @@
                     </div>
 
                     <div class="instructor-divs col-xs-12 col-sm-12 col-lg-4 pb-4" id="Instructor-information">
-                        <div class="instructor2-img"></div>
+                        <div class="instructor2-img" alt="Image of one of the instructors"></div>
                         <p class="instructor-text-right">
                             Mathew Rhode
                             <br>
@@ -185,10 +186,11 @@
                     </div>
 
                     <div class="find-right col-sm-12 col-md-6">
-                        <div class="map-container">
+                        <div class="map-container" aria-label="map" alt="Responsive google map tool">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260531.8531413554!2d17.701194861063993!3d59.32619022954378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2sStockholm!5e0!3m2!1sen!2sse!4v1618569959577!5m2!1sen!2sse"
-                                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                target="_blank"></iframe>
                         </div>
                     </div>
                 </div>
@@ -201,14 +203,14 @@
                     Interested in what we have to offer?
                     <br>
                     <a class="btn btn-info-book font-style mb-2 mt-2" href="booking.html" type="button"
-                        id="book-info-btn">Book
+                        id="book-info-btn" aria-label="booking page">Book
                         Here!</a>
                 </h3>
                 <h3 class="h3-contact-info font-style-heading">
                     Have any questions or would like a bit more information?
                     <br>
                     <a class="btn btn-info-contact font-style mb-3 mt-2" href="contact.html" type="button"
-                        id="contact-info-btn">Contact
+                        id="contact-info-btn" aria-label="contact page">Contact
                         Us!</a>
                 </h3>
             </div>
