@@ -1,6 +1,6 @@
 # Zen Studio
 * [Link to live website](https://oliverdaviescodes.github.io/Yoga-Studio/index.html)
-* [Image of responsive website](/workspace/Yoga-Studio/assets/images/Responsive-website.png)
+* ! [Image of responsive website](/workspace/Yoga-Studio/assets/images/Responsive-website.png)
 ## About
 The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
 five main pages. The idea of the website is to attract all individuals looking to get into yoga and meditation
