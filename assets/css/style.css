@@ -245,7 +245,6 @@ p.story-p {
 .booking-heading {
     background-color: rgba(0, 59, 70, 0.45);
     margin: 5px auto;
-    padding: 0 auto;
     text-align: center;
     width: 50%;
     height: 100%;
@@ -254,7 +253,6 @@ p.story-p {
 .contact-heading {
     background-color: rgba(0, 59, 70, 0.45);
     margin: 5px auto;
-    padding: 0 auto;
     text-align: center;
     width: 50%;
 
@@ -460,11 +458,6 @@ a:hover {
     color: #66A5AD;
 }
 
-
-#dropdownMenuButton {
-    background-color: none;
-    border-color: none;
-}
 
 .submit-form {
     background-color: #F4874B;

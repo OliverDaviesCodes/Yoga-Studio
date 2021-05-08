@@ -57,7 +57,14 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
 ## User Experience (UX)
 
 
+# Features
 
+ The site is fully responsive, and Accessibility features in form of alternative text for images, language set to English, semantic HTML and ARIA labels were
+ used to make the site accessible and enjoyable for users with disabilities. The Navabar was designed for quick accessibility around the site. 
+ Colours and icons have been used in a similar spectrum to create flow and understanding around the website. 
+ Forms have been implemented for easy ways of contacting and booking various classes through the studio.
+ Embedded google map allows great accessibility and and a wuick overview with additional links for direction.
+ Social links have been provided in the footer to try and entice people join the various social platforms of the business
 
 ## Navbar Features
   * Featured on all five pages, the full responsive navigation bar includes links to the Logo,
@@ -127,6 +134,10 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
 * The footer section includes links to the relevant social media sites (These sites dont exist but for references they are here) for Zen Studio. The links will open to a new tab to allow easy navigation for the user.
 * The footer is valuable as it encourages connection through social media and further navigation of the site at the end of the page
 
+## Features left to implement
+
+An effective payment and booking system with a live class update
+on bookings and scheduling to identify if classes are full or not
 #  
 
 ## Design
@@ -141,11 +152,20 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
     I went with google fonts as my primary choice of font picking and used the font realtions tool to pick the optimal fonts for my project varying with style from headings to text
     I ended up with 3 main fonts. These where Handlee, Montseratt and railway Which all paired well through the styling phase of the project
 
-## Features left to implement
 
 
 
 ## Technologies Used
+
+ ### Languages
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+ ### Libraries and frameworks Used
+ * [Bootstrap 4.2.1](https://getbootstrap.com/docs/4.2)
+ * [Google Fonts](https://fonts.google.com/)
+ * [Font Awesome](https://fontawesome.com/)
+ * [W3schools](https://www.w3schools.com/)
 
 ## Testing
 
