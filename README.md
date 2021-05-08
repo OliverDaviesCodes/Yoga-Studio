@@ -1,5 +1,6 @@
 # Zen Studio
-
+* [Link to live website](https://oliverdaviescodes.github.io/Yoga-Studio/index.html)
+* [Image of responsive website](/workspace/Yoga-Studio/assets/images/Responsive-website.png)
 ## About
 The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
 five main pages. The idea of the website is to attract all individuals looking to get into yoga and meditation
@@ -167,25 +168,139 @@ on bookings and scheduling to identify if classes are full or not
  * [Font Awesome](https://fontawesome.com/)
  * [W3schools](https://www.w3schools.com/)
 
+### Tools
+* [Github](https://github.com/)
+* [Balsamiq](https://balsamiq.com/)
+* [Coolors](https://coolors.co/)
+* [Am i Responsive](http://ami.responsivedesign.is/)
+* [W3C Html Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
 ## Testing
+### functionality Testing
+ #### Navigation Bar
+ * Plan Make the site easy to navigate by providing a navbar and using easily 
+  understandable names for the pages.
+* Make the Navbar fixed so its always accessible at all times around the site for easier navigation
+* Implementation I used the Bootstrap navbar and added several Bootstrap flexbox classes to position it on the right side for all devices, except mobiles.
+  On mobile devices I also used Bootstrap to make the navbar collapse and be displayed within the
+  hamburger icon for a more accessible responsive feel.
+* Test
+ I tested all links on all pages to make sure that the correct site is displayed.
+* Result
+Each page was fully accessible across the project
+* Everything seems to be working as intended
+
+#### Page selectors
+* plan was to make 3 Accesible page selectors on the home page so people can read and go to the locations
+they wuish to go on every page.
+* I genereated circular divs with circular anchor tags as buttons to take people to each page
+* tested moving to each page and back without any trouble
+* It seems to be working as intended
+
+#### Footer
+* Created various Navigation and social links around the website and to various other websites to create further User experience and intergration with the company
+* added a list to the various pages and implemented side by side accessible icons for the different social pages all linked.
+* Tested each of these links and they worked well across all pages
+* Everything seems to be working as intended
+
+#### Info Section
+* Created a seperate marketing section on various pages to get people involved and encourage them to book through the website
+or get in touch about questions they may have
+* created accessible links for the contacts and booking page with large headings to provide information and directions
+* Tested these across the necessary pages and worked well
+* Everything is working as intended
+
+#### Contact form
+* provided an accessible and easy way for customers to contact and be in touch about various questions throught he use of a form
+* implemented a form from bootstrap and changed various titles and classes to better suite the project
+* Tried to submit without entering any data and it stopped the submission with the necessary requirements
+* Result 
+  When clicking 'Submit' without filling out any or all fields or when entering invalid data the user is asked to enter the missing data or to correct his/her input.
+  Thus the form needs to be completed correctly before submission. Which was intended
+
+#### Booking form
+* Provided an eccessible  and encouraging way to book with ease through the use of a booking form highlighting skill level,
+date and time available for the course or class you wish to take.
+* Tested the form by trying to submit without data and with data* form worked as intended and would not submit without the required data and would if it was filled in.
+
+#### Google map
+* designed to be visually intuitive and provide better understanding of address and direction
+* works as intended as its easily accessible not to large and can be expanded if necessary
+
+### W3C Markup Validator
+ [W3C Html Validator](https://validator.w3.org/)
+ the validator came back with no errors
+
+ ### W3CSS Validator
+ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ the validator came back with no errors
 
 ## Deployment
+* GitHub Pages
+
+1. The project was deployed on GitHub Pages. The following steps were taken.
+2. In the repository, go the the project main page.
+3. Click on 'Settings' and then scroll down to the section 'GitHub Pages'.
+4. Click on the link for the new dedicated Page settings tab.
+5. In the new window using the drop-down menu select the main branch and then click on 'Save'.
+6. The site is now published and a link is provided.
+
+* Forking
+If you wish to use this repository or to propose changes to this project, you can fork it. Follow the steps below.
+1. Navigate to the repository, e.g. oliverdaviescodes/yoga-studio
+2. Click 'Fork' in the top-right corner.
+
+* cloning
+Cloning a repository creates a local copy on your computer. Follow the steps below.
+1. Navigate to the repository, e.g. oliverdaviescodes/yoga-studio
+2. Click 'Code' above the list of files.
+3. In the new window, cloning using HTTPS is the default option. Copy the provided link manually or by clicking on the clipboard symbol.
+4. Open Gitbash
+5. Navigate to your desired directory for the cloned project.
+6. Type 'git clone' followed by the URL copied in step 3.
+7. Press _Enter_ to create your local clone.
+
+# Credit 
+
 
 ## Content
+ All content and code for the project was written by myslef other than the Images and Bootstrap code acquired
 
 ## Media 
+All media was accessed from royalty free sites where usage is allowed
+Icons where acquired from fontawesome across the entire site
+
+
+### logo
+https://www.freelogodesign.org/manager/showcase/5f45e78a32de4b3586827cb289353398 = logo1
+
+### index.html
+Background image: https://pixabay.com/photos/yoga-yoga-pose-asana-sunset-woman-5281457/ = yogaoutside
+
+### activities.html
+
+Woman doing pushups: https://www.pexels.com/photo/woman-doing-push-ups-2780762/ = yogatraining1
+man meditating : https://www.pexels.com/photo/woman-in-red-sports-bra-and-green-shorts-sitting-on-purple-carpet-4325484/ =meditation2
+Information regarding different yoga types: https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply = info for different types of yoga classes
+Information regarding different mediatation types: https://www.healthline.com/health/mental-health/types-of-meditation#transcendental-meditation = this is the core info for the diffference in meditations.
+### about.html
+
+woman on the beach doing a headstand: https://pixabay.com/photos/yoga-stand-in-hands-silhouette-2149407/
+
+### Contact.html
+Contact image used : https://pixabay.com/photos/dusk-lake-nature-water-california-1909693/
+
+### booking.html
+booking image used: https://www.pexels.com/photo/stack-of-colorful-pebbles-near-blue-sea-4335696/ =rocks1
+
 
 ## Acknowledgements
-https://www.pexels.com/photo/woman-doing-push-ups-2780762/ = yogatraining1
-https://pixabay.com/photos/yoga-outdoor-woman-pose-young-2176668/ = meditation
-https://pixabay.com/photos/yoga-adult-asia-exercise-girl-1822476/ =yoga outside
-https://pixabay.com/photos/yoga-yoga-pose-asana-sunset-woman-5281457/ = yogaoutside
-https://www.pexels.com/photo/woman-in-red-sports-bra-and-green-shorts-sitting-on-purple-carpet-4325484/ =meditation2
-https://www.healthline.com/health/mental-health/types-of-meditation#transcendental-meditation = this is the core info for the diffference in meditations.
-https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply = info for different types of yoga classes
-https://www.pexels.com/photo/black-and-gray-metal-tool-4325451/ = studio1
-https://www.pexels.com/photo/stack-of-colorful-pebbles-near-blue-sea-4335696/ =rocks1
-https://www.freelogodesign.org/manager/showcase/5f45e78a32de4b3586827cb289353398 = logo1
-https://pixabay.com/photos/dusk-lake-nature-water-california-1909693/
-https://pixabay.com/photos/yoga-stand-in-hands-silhouette-2149407/
-had to move around content in the footer to adjust the size ratio
+I used https://www.hotyogasthlm.se/ to find some inspiration behind my project
+My mentor Maranatha Ilesanmi for his helpful insights and feedback.
+throughtout the coding process of the project 
+the Slack community for the support in answering some of my more tedious questions.
+
+
+
+
