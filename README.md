@@ -1,6 +1,6 @@
 # Zen Studio
 * [Link to live website](https://oliverdaviescodes.github.io/Yoga-Studio/index.html)
-* ![Image of responsive website](workspace/Yoga-Studio/assets/images/Responsive-website.png)
+* ![Image of responsive website](assets/images/Responsive-website.png)
 ## About
 The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
 five main pages. The idea of the website is to attract all individuals looking to get into yoga and meditation
@@ -18,20 +18,20 @@ I took it one step further than a basic wireframe when designing the site as it 
 ## Wireframes
 I used Balsamiq to create my wireframes. It is beginner-friendly and very easy to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
 
-![Wireframe home page](workspace/Yoga-Studio/assets/images/wireframe-1.png)
+![Wireframe home page](assets/images/wireframe-1.png)
 
 ### Differences in deployed version:
  * Created fresh Navbar to cover top segment of all pages
  * decreased Page selectors down from 4 to 3 to create more space on the page
  * adjusted animation and font-styling in accordance to the design and flow of the website.
 
-![Wireframe Activities page](workspace/Yoga-Studio/assets/images/wireframe-2.png)
+![Wireframe Activities page](assets/images/wireframe-2.png)
 ### Differences in deployed version:
  * Created fresh Navbar to cover top segment of all pages
  * adjusted div sizing and spacing for a more aesthetic viewing
  * removed some content on smaller screen sizes for aanti-cluttering
 
-![Wireframe About page](workspace/Yoga-Studio/assets/images/wireframe-3.png)
+![Wireframe About page](assets/images/wireframe-3.png)
 ### Differences in deployed version:
  * Created fresh Navbar to cover top segment of all pages
  * Changed initial image to work more with the colors of the site
@@ -39,7 +39,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
  * removed some content on smaller screen sizes for aanti-cluttering
  * implemented a responsivce google map to identify location and area
 
-![Wireframe Contact page](workspace/Yoga-Studio/assets/images/wireframe-4.png)
+![Wireframe Contact page](assets/images/wireframe-4.png)
 
 ### Differences in deployed version:
  * Created fresh Navbar to cover top segment of all pages
@@ -48,7 +48,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
  * implemented box shadowing on the form for a more visual effect
 
 
-![Wireframe Booking page](workspace/Yoga-Studio/assets/images/wireframe-5.png)
+![Wireframe Booking page](assets/images/wireframe-5.png)
 
 ### Differences in deployed version:
  * Created fresh Navbar to cover top segment of all pages
@@ -147,7 +147,7 @@ on bookings and scheduling to identify if classes are full or not
     I used a very cool colour palette across my entire project keeping things
     consistant for aesthetic viewing. I did this through https://coolors.co/
  
- ![Colour Palette](workspace/Yoga-Studio/assets/images/color-palette.png)
+ ![Colour Palette](assets/images/color-palette.png)
 
  ### Font and styling
     I went with google fonts as my primary choice of font picking and used the font realtions tool to pick the optimal fonts for my project varying with style from headings to text
