@@ -322,6 +322,7 @@ date and time available for the course or class you wish to take.
 #### Bugs
 Was a bug occuring on the main page where the background image was jumping and was not staying fixed when scrolling
 as intended. 
+This was fixed by removing some old css code with a (position:relative) that was stopping the page from functioning correctly
 ### W3C Markup Validator
  [W3C Html Validator](https://validator.w3.org/)
  the validator came back with no errors
