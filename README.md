@@ -265,6 +265,7 @@ additional classes and times to be added for studio diversity
 * [Am i Responsive](http://ami.responsivedesign.is/)
 * [W3C Html Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [TOC generator](https://luciopaiva.com/markdown-toc/)
 
 ## Testing
 ### functionality Testing
