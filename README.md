@@ -319,6 +319,9 @@ date and time available for the course or class you wish to take.
 * designed to be visually intuitive and provide better understanding of address and direction
 * works as intended as its easily accessible not to large and can be expanded if necessary
 
+#### Bugs
+Was a bug occuring on the main page where the background image was jumping and was not staying fixed when scrolling
+as intended. 
 ### W3C Markup Validator
  [W3C Html Validator](https://validator.w3.org/)
  the validator came back with no errors
