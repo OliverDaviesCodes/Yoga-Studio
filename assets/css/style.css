@@ -40,7 +40,9 @@
     color: #C4DFE6 !important;
 }
 
-
+.navbar a:hover {
+    text-decoration: underline;
+}
 
 .dropdown-menu.show {
     background-color: #134f5c40;
