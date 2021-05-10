@@ -7,24 +7,24 @@
 }
 
 .navbar-booking {
-    background-color: #07575bd1;
+    background-color: #07575b;
     justify-content: space-between;
 
 }
 
 .navbar-contact {
-    background-color: #003b46ed;
+    background-color: #003b46;
     justify-content: space-between;
 }
 
 .navbar-about {
-    background-color: #25828e94;
+    background-color: #25828e;
     justify-content: space-between;
 
 }
 
 .navbar-activities {
-    background-color: #07575bad;
+    background-color: #07575b;
     justify-content: space-between;
 }
 
@@ -40,7 +40,7 @@
     color: #C4DFE6 !important;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     text-decoration: underline;
 }
 
@@ -151,11 +151,12 @@ footer a {
 
 
 .booking-p-div {
-    background-color: rgba(0, 59, 70, 0.45);
+    background-color: rgba(0, 59, 70, 0.7);
     margin: 25px 10px;
     font-size: 18px;
     padding: 0 0;
     text-align: center;
+
 }
 
 .contact-text {
@@ -242,7 +243,7 @@ p.story-p {
 
 /*------------- Headings & text*/
 .booking-heading {
-    background-color: rgba(0, 59, 70, 0.45);
+    background-color: rgba(0, 59, 70, 0.7);
     margin: 5px auto;
     text-align: center;
     width: 50%;
@@ -442,6 +443,7 @@ p.footer-font {
     background-color: #134F5C;
     color: #C4DFE6;
     font-size: 28px;
+    align-items: baseline;
 }
 
 /*------------- Icons & Buttons*/
@@ -615,6 +617,10 @@ body {
 }
 
 /*------------- Lists*/
+.ul-padding {
+    padding-left: 10px;
+}
+
 .li-inline {
     display: inline;
 }

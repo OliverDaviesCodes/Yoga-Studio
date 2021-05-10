@@ -1,21 +1,128 @@
-# Zen Studio
+# Zen Studio # 
+
 * [Link to live website](https://oliverdaviescodes.github.io/Yoga-Studio/index.html)
 * ![Image of responsive website](assets/images/Responsive-website.png)
+
+## Contents ## 
+# Table of contents
+
+- [Zen Studio](#zen-studio)
+  - [Contents](#contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Site Owner Goals](#site-owner-goals)
+    - [User requirements and expectations](#user-requirements-and-expectations)
+    - [Colours](#colours)
+    - [Font and styling](#font-and-styling)
+  - [About](#about)
+  - [Wireframes](#wireframes)
+    - [Differences in deployed version:](#differences-in-deployed-version)
+    - [Differences in deployed version:](#differences-in-deployed-version)
+    - [Differences in deployed version:](#differences-in-deployed-version)
+    - [Differences in deployed version:](#differences-in-deployed-version)
+    - [Differences in deployed version:](#differences-in-deployed-version)
+  - [Features](#features)
+    - [Navbar Features](#navbar-features)
+    - [Home Page Features](#home-page-features)
+- [](#)
+    - [Activities Page Features](#activities-page-features)
+- [](#)
+    - [Who We Are Page Features](#who-we-are-page-features)
+- [](#)
+    - [Contact Page Features](#contact-page-features)
+- [](#)
+    - [Booking Page Features](#booking-page-features)
+    - [Footer](#footer)
+    - [Features left to implement](#features-left-to-implement)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Libraries and frameworks Used](#libraries-and-frameworks-used)
+    - [Tools](#tools)
+  - [Testing](#testing)
+    - [functionality Testing](#functionality-testing)
+    - [W3C Markup Validator](#w3c-markup-validator)
+    - [W3CSS Validator](#w3css-validator)
+  - [Deployment](#deployment)
+  - [Credit](#credit)
+    - [Content](#content)
+    - [Media](#media)
+    - [logo](#logo)
+    - [index.html](#indexhtml)
+    - [activities.html](#activitieshtml)
+    - [about.html](#abouthtml)
+    - [Contact.html](#contacthtml)
+    - [booking.html](#bookinghtml)
+  - [Acknowledgements](#acknowledgements)
+
+## User Experience (UX)
+
+### Project Goals
+The **goal** of this Project is to create a completely interactive and responsivess front end web site for a yoga studio in Stockholm.
+with a focus on **all individuals** interested in yoga instead of a select age group
+
+### User Goals
+- **Interest** individuals looking to get into Yoga.
+- **Encourage** people to join our classes and be apart of the community.
+- **Teach** People about yooga and meditation and all its different forms.
+- **Contact** The studio about questions.
+- **Bookings** can be placed through the webpage.
+
+### User Stories
+- As a **user** I want to find out about the studio and what it does
+- As a **user** I want to be able to look at the different classes on offer
+- As a **user** I want to be able to see who i will be doing my classes with
+- As a **user** I want to be able to contact the studio about any questions
+- As a **user** I want to be able to book classes through the website
+
+### Site Owner Goals
+- As a **site owner**, I want to create an interactive and responsive site 
+- As a **site owner** , I want to be able to create something that is minimalistic and easy to navigate around
+- As a **site owner**, I want the site to be informative and provide stories about the studio and there instructors
+- As a **site owner**, I want the site to be accessible and contacting the studio should be easy.
+- As a **site owner**, I want the classes to be presented and accessible, so users can identify what they would like to do.
+- As a **site owner**, I want there to be an easy method of booking through the website.
+
+### User requirements and expectations
+
+1. The site should have: 
+    - Various images about the studio and its classes
+    - Navigation bar for ease of movement around the site 
+    - Descriptions of different classes
+    - form to contact the owners
+    - form to book classes
+    - description of the studio and its employees 
+2. The site should be **visually appealing** and **interactive**.
+3. The site should have 5 pages. 3 of which are main pages and two contacting pages
+4. page 1 will be the home page and encourage user exploration
+5. Page 2 will be the activities page and focus on class description and structure
+6. page 3 will be about the studio and focus on its story and the employees. the last two pages will be a contact page and a bookings page used for questions and booking classes.
+
+### Colours
+    I used a very cool colour palette across my entire project keeping things
+    consistant for aesthetic viewing. I did this through https://coolors.co/
+ 
+ ![Colour Palette](assets/images/color-palette.png)
+
+### Font and styling
+    I went with google fonts as my primary choice of font picking and used the font relations tool to pick the optimal fonts for my project varying with style from headings to text
+    I ended up with 3 main fonts. These where Handlee, Montseratt and railway Which all paired well through the styling phase of the project
+
 ## About
 The project idea is based on a Yoga studio in Stockholm, the website should have a modern simplistic flow containing 
 five main pages. The idea of the website is to attract all individuals looking to get into yoga and meditation
 from any background and skill level emphasizing the ease for beginners to join in and be apart of the studio, with a main focus on strength classes and flexibility classes with various mediation classes following on in the day.
 The site should have a very easy flow and navigation feel with a more minimalist set up making user experience refined and simple to navigate where they wish to go.
-# 
 
 The website is aimed at all age groups and skill levels as there will be various classes and for each individual skill level.
 With a focus on attracting New individuals who would like to try yoga or meditation for the first time.
 There will be an in-depth story into the team and how the studio came to be so you feel welcomed from the minute you read to the minute that you book through the site.
 
-see the attached Hybrid Mock-ups for the website here ---> 
-I took it one step further than a basic wireframe when designing the site as it was my first website and thus created the hybrid mockups as seen below
+
 
 ## Wireframes
+I took it one step further than a basic wireframe when designing the site as it was my first website and thus created the hybrid mockups as seen below
 I used Balsamiq to create my wireframes. It is beginner-friendly and very easy to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
 
 ![Wireframe home page](assets/images/wireframe-1.png)
@@ -55,10 +162,8 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
  * adjusted div sizing and spacing for a more aesthetic viewing
  * implemented box shadowing on the form for a more visual effect
 
-## User Experience (UX)
 
-
-# Features
+## Features
 
  The site is fully responsive, and Accessibility features in form of alternative text for images, language set to English, semantic HTML and ARIA labels were
  used to make the site accessible and enjoyable for users with disabilities. The Navabar was designed for quick accessibility around the site. 
@@ -67,14 +172,14 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
  Embedded google map allows great accessibility and and a wuick overview with additional links for direction.
  Social links have been provided in the footer to try and entice people join the various social platforms of the business
 
-## Navbar Features
+### Navbar Features
   * Featured on all five pages, the full responsive navigation bar includes links to the Logo,
     Home page, about us and contact and Bookings page and is identical in each page to allow for easy navigation.
   * This is created for ease of navigation continously around the site. The navbar will also be fixed so that it can be accessed from any point on a page
     for easier user experience
   * The navbar is built responsively so on small screen sizes the nav menu will collapse into a burger icon for ease of use and anti-cluttering
 
-## Home Page Features
+### Home Page Features
 
 * Menu Button - designed to create a drop down menu with a selection of access pages for ux design
 * Main Heading - designed to be eye catching and create a sense of experience when read so users feel the need to progress further into the website
@@ -85,7 +190,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
    
 # 
 
-## Activities Page Features
+### Activities Page Features
 
 * Heading and page introduction focused on identifying user location and content of the page
 * Vinyasa Yoga Activity - This is one of the 2 available yoga classes focused on strength training and has a description about the type of yoga it is. As well as the scheduling of the relative classes
@@ -99,7 +204,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
 
 # 
 
-## Who We Are Page Features
+### Who We Are Page Features
 
 *  Heading and page introduction focused on identifying user location and page content
 *  Heading and description about the studio and its story focused on giving insight into how the studio was constructed.
@@ -111,7 +216,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
 
 # 
 
-## Contact Page Features 
+### Contact Page Features 
 
 *  Background image is cool and corresponds to the sites modern colouring creating a sense of peace and ease 
 *  Heading and page introduction focused on identifying user location
@@ -122,7 +227,7 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
 
 # 
 
-## Booking Page Features
+### Booking Page Features
 
 *  Background image is cool and corresponds to the sites modern colouring creating a sense of peace and ease 
 *  Heading and page introduction focused on identifying user location
@@ -130,31 +235,16 @@ I used Balsamiq to create my wireframes. It is beginner-friendly and very easy t
    with various options and choices for bookings.
 *  Footer
  
-## Footer
+### Footer
 
 * The footer section includes links to the relevant social media sites (These sites dont exist but for references they are here) for Zen Studio. The links will open to a new tab to allow easy navigation for the user.
 * The footer is valuable as it encourages connection through social media and further navigation of the site at the end of the page
 
-## Features left to implement
+### Features left to implement
 
 An effective payment and booking system with a live class update
 on bookings and scheduling to identify if classes are full or not
-#  
-
-## Design
-  
-  ### Colours
-    I used a very cool colour palette across my entire project keeping things
-    consistant for aesthetic viewing. I did this through https://coolors.co/
- 
- ![Colour Palette](assets/images/color-palette.png)
-
- ### Font and styling
-    I went with google fonts as my primary choice of font picking and used the font realtions tool to pick the optimal fonts for my project varying with style from headings to text
-    I ended up with 3 main fonts. These where Handlee, Montseratt and railway Which all paired well through the styling phase of the project
-
-
-
+additional classes and times to be added for studio diversity
 
 ## Technologies Used
 
@@ -261,15 +351,15 @@ Cloning a repository creates a local copy on your computer. Follow the steps bel
 6. Type 'git clone' followed by the URL copied in step 3.
 7. Press _Enter_ to create your local clone.
 
-# Credit 
+## Credit 
 
 
-## Content
- All content and code for the project was written by myslef other than the Images and Bootstrap code acquired
+### Content
+ All content and code for the project was written by myself other than the Images and Bootstrap code acquired
 
-## Media 
+### Media 
 All media was accessed from royalty free sites where usage is allowed
-Icons where acquired from fontawesome across the entire site
+All Icons where acquired from fontawesome.
 
 
 ### logo
@@ -279,13 +369,12 @@ https://www.freelogodesign.org/manager/showcase/5f45e78a32de4b3586827cb289353398
 Background image: https://pixabay.com/photos/yoga-yoga-pose-asana-sunset-woman-5281457/ = yogaoutside
 
 ### activities.html
-
 Woman doing pushups: https://www.pexels.com/photo/woman-doing-push-ups-2780762/ = yogatraining1
 man meditating : https://www.pexels.com/photo/woman-in-red-sports-bra-and-green-shorts-sitting-on-purple-carpet-4325484/ =meditation2
 Information regarding different yoga types: https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply = info for different types of yoga classes
 Information regarding different mediatation types: https://www.healthline.com/health/mental-health/types-of-meditation#transcendental-meditation = this is the core info for the diffference in meditations.
-### about.html
 
+### about.html
 woman on the beach doing a headstand: https://pixabay.com/photos/yoga-stand-in-hands-silhouette-2149407/
 
 ### Contact.html
@@ -296,10 +385,12 @@ booking image used: https://www.pexels.com/photo/stack-of-colorful-pebbles-near-
 
 
 ## Acknowledgements
-I used https://www.hotyogasthlm.se/ to find some inspiration behind my project
-My mentor Maranatha Ilesanmi for his helpful insights and feedback.
-throughtout the coding process of the project 
-the Slack community for the support in answering some of my more tedious questions.
+
+- I used https://www.hotyogasthlm.se/ to find some inspiration behind my project
+- My mentor Maranatha Ilesanmi for his helpful insights and feedback throughtout the coding process of the project 
+- the Slack community for the support in answering some of my more tedious questions.
+- I would like to thank my cousin Laurence Davies who supported me and gave me some strong guidance on positioning and other helpful insight
+- I would also like to thank my family and friends for supporting me and giving insightful feedback on how they thought the project was goinng
 
 
 
